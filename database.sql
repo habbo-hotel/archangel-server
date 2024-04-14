@@ -11,7 +11,7 @@
  Target Server Version : 110302 (11.3.2-MariaDB-1:11.3.2+maria~ubu2204)
  File Encoding         : 65001
 
- Date: 27/03/2024 21:40:30
+ Date: 13/04/2024 22:49:13
 */
 
 SET NAMES utf8mb4;
@@ -13915,6 +13915,32 @@ INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`,
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 's', 1711586380);
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 's', 1711586380);
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 's', 1711586380);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, '       ', 1711648080);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 'WHYYY', 1711650738);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, ':emptyitems', 1711865731);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'HELLO WORLD WHAT ARE YOU UP TO?', 1711906692);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'WOW AMAZING ', 1711913972);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'SUCH HEALTH', 1711913974);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'WOWOWOWOWOW', 1711913975);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'ok', 1711914766);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'not bad ngl', 1711916293);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'commands.roleplay.cmd_hit_user_is_self', 1711941323);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'gr8', 1711941327);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'lol', 1711941331);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'lol', 1711941334);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 'lol gr8', 1711941368);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (3, 2, 0, 'hmm', 1712007601);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 2, 0, 'lol SURE', 1712009191);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'GET FUCKED BITCH', 1712011757);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'GET FUCKED', 1712087707);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'YOU FUCKING WEIRDO', 1712087709);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'REEE', 1712087711);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'OH OK', 1712088178);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'FINE THEN', 1712088180);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'FUCKING FINE ', 1712088181);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (2, 2, 0, ':release Chris', 1712097718);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'y', 1713022082);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'noty', 1713022083);
 COMMIT;
 
 -- ----------------------------
@@ -15159,8 +15185,8 @@ INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('bundle.pets.enabled', 
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.trading.enabled', '1');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('wired.effect.teleport.delay', '100');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.roomuser.idle.cycles.kick', '900');
-INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.badgeparts', '/var/www/testhotel/Cosmic/public/usercontent/badgeparts');
-INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.badges', '/var/www/testhotel/Cosmic/public/usercontent/badgeparts/generated/');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.badgeparts', '/opt/homebrew/var/www/flash/c_images/Badgeparts');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.badges', '/opt/homebrew/var/www/flash/c_images/Badgeparts/generated');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.internal.enabled', '1');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('db.min.partition.size', '1');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('db.max.partition.size', '2');
@@ -15313,8 +15339,8 @@ INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.auto.gotwpoints.
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.auto.gotwpoints.type', '4');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.auto.gotwpoints.name', 'shell');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('camera.url', 'http://localhost/usercontent/camera/');
-INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.camera', '/var/www/testhotel/Cosmic/public/usercontent/camera/');
-INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.thumbnail', '/var/www/testhotel/Cosmic/public/usercontent/camera/thumbnail/');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.camera', '/opt/homebrew/var/www/flash/c_images/camera');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('imager.location.output.thumbnail', '/opt/homebrew/var/www/flash/c_images/camera/thumbnail ');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('path.furniture.icons', '${image.library.url}/icons/');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('bubblealerts.notif_purchase.limited', '0');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('bubblealerts.notif_marketplace.enabled', '1');
@@ -15423,6 +15449,14 @@ INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('websockets.whitelist',
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('ws.nitro.host', '0.0.0.0');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('ws.nitro.port', '2096');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('ws.nitro.ip.header', '');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.last_pos.delay', '3000');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.server_time.tick_rate', '1');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.server_time.tick_interval', '1000');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.server_time.report_interval', '60000');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.prison.male_uniform', '-');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.prison.female_uniform', '-');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.police.stun_range', '4');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('roleplay.logout.delay', '2000');
 COMMIT;
 
 -- ----------------------------
@@ -16259,10 +16293,47 @@ INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_cor
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_success', '*Starts their shift as %position% at %corp%*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_user_is_already_working', 'You\'re already working!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_not_complete', 'You didn\'t finish your shift');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_time_left', '*Has %timeLeft%/%shiftLength% minutes left on their shift*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_cannot_pay_no_job', 'You don\'t have a job!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_time_left', '*Has :timeLeft left on their shift*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.prison.activity', 'Serving prison time');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_stop_work_no_shift', 'You\'re not working!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_stopped', '*Stops working*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.cant_leave_room_during_shift', 'You can\'t leave during your shift');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_not_in_boundaries', 'You can\'t start work outside of your job!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hit_success', '*Hits %user% doing %damage% damage*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_motto', 'Working at %corp% as %position%');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_stop_work_motto', 'Exploring');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.corp.default_position_name', 'Employee');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.corp.default_position_desc', 'I have a job!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.hospital.starts_healing', '*Starts healing*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.hospital.stops_healing', '*Finishes healing*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.prison.starts_sentence', '*Starts :timeLeft minute prison sentence for :crime*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.prison.sentence_time_left', '*Has :timeLeft/:timeServed minutes left in prison*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.prison.finishes_sentence', '*Finishes their prison sentence*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.unemployed', 'You are unemployed!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.police_only', 'Only police officers can do that!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_arrest_must_be_in_station', 'You must be in the police station to arrest someone!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.target_dead', ':username is dead!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.generic_target_too_far', ':username is too far away!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_arrest_must_be_cuffed', 'You have to handcuff :username before arresting them!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_cuff_must_be_stunned', 'You have to stun :username before cuffing them!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_cuff_success', '*Places handcuffs on :username and reads their rights*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_stun_already_stunned', ':username is already stunned');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_cuff_already_stunned', ':username is already cuffed!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_stun_success', '*Stuns :username with a tazer*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_stun_unstunned_user', '*Pulls the tazer out of :username*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_uncuff_success', '*Removes handcuffs from :username*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hit_user_is_self', 'You can\'t do that to yourself');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.must_be_working', 'You must be working to do that!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_escort_must_be_cuffed', ':username must be cuffed before you escort them!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_escort_start', '*Starts escorting :username*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_escort_stop', '*stops escorting *');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_escort_in_progress', ':username is being escorted by someone else!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hit_user_is_out_of_range', 'They\'re too far away!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.generic.not_allowed', 'You can\'t do that!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.generic.passive_room', 'You can\'t do that in a passive room!');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_paid', '*Finishes a shift and gets paid :salary dollars*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay_cmd_release_success', '*Releases :username from prison early for good behavior*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.generic.logout_started', '*Logging out in :seconds seconds*');
 COMMIT;
 
 -- ----------------------------
@@ -16825,6 +16896,7 @@ COMMIT;
 DROP TABLE IF EXISTS `guilds`;
 CREATE TABLE `guilds` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `guild_type` varchar(255) NOT NULL DEFAULT 'group',
   `user_id` int(11) NOT NULL DEFAULT 0,
   `name` varchar(50) NOT NULL DEFAULT '',
   `description` varchar(250) NOT NULL DEFAULT '',
@@ -16844,13 +16916,17 @@ CREATE TABLE `guilds` (
   KEY `id` (`id`) USING BTREE,
   KEY `data` (`room_id`,`user_id`) USING BTREE,
   KEY `name` (`name`) USING BTREE,
-  KEY `description` (`description`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
+  KEY `description` (`description`) USING BTREE,
+  KEY `type` (`guild_type`)
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of guilds
 -- ----------------------------
 BEGIN;
+INSERT INTO `guilds` (`id`, `guild_type`, `user_id`, `name`, `description`, `room_id`, `state`, `rights`, `color_one`, `color_two`, `badge`, `date_created`, `forum`, `read_forum`, `post_messages`, `post_threads`, `mod_forum`) VALUES (3, 'corp', 1, 'Mercy Hospital', 'Mercy Hospital', 1, 0, '0', 12, 32, 'b010134s015104', 1711824704, '0', 'EVERYONE', 'EVERYONE', 'EVERYONE', 'ADMINS');
+INSERT INTO `guilds` (`id`, `guild_type`, `user_id`, `name`, `description`, `room_id`, `state`, `rights`, `color_one`, `color_two`, `badge`, `date_created`, `forum`, `read_forum`, `post_messages`, `post_threads`, `mod_forum`) VALUES (26, 'corp', 1, 'Police', 'Police', 2, 0, '0', 1, 1, 'b007244s166014', 1711903940, '0', 'EVERYONE', 'EVERYONE', 'EVERYONE', 'ADMINS');
+INSERT INTO `guilds` (`id`, `guild_type`, `user_id`, `name`, `description`, `room_id`, `state`, `rights`, `color_one`, `color_two`, `badge`, `date_created`, `forum`, `read_forum`, `post_messages`, `post_threads`, `mod_forum`) VALUES (27, 'group', 1, 'Clothing Store', 'Clothing Store', 5, 0, '0', 1, 1, 'b022134s031014', 1711907691, '0', 'EVERYONE', 'EVERYONE', 'EVERYONE', 'ADMINS');
 COMMIT;
 
 -- ----------------------------
@@ -17418,12 +17494,36 @@ CREATE TABLE `guilds_members` (
   KEY `userdata` (`user_id`,`guild_id`) USING BTREE,
   KEY `level_id` (`level_id`) USING BTREE,
   KEY `member_since` (`member_since`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of guilds_members
 -- ----------------------------
 BEGIN;
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (1, 1, 1, 0, 1711818766);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (3, 3, 1, 0, 1711824704);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (4, 3, 2, 2, 1711826421);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (10, 10, 2, 0, 1711903419);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (11, 11, 2, 0, 1711903421);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (12, 12, 2, 0, 1711903421);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (13, 13, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (14, 14, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (15, 15, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (16, 16, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (17, 17, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (18, 18, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (19, 19, 2, 0, 1711903422);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (20, 20, 2, 0, 1711903423);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (21, 21, 2, 0, 1711903423);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (22, 22, 2, 0, 1711903423);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (23, 23, 2, 0, 1711903423);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (24, 24, 2, 0, 1711903423);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (25, 25, 1, 0, 1711903682);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (26, 26, 1, 0, 1711903940);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (27, 3, 19, 2, 1711905420);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (28, 27, 1, 0, 1711907691);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (35, 26, 2, 2, 1711918613);
+INSERT INTO `guilds_members` (`id`, `guild_id`, `user_id`, `level_id`, `member_since`) VALUES (36, 26, 19, 2, 1711918636);
 COMMIT;
 
 -- ----------------------------
@@ -17544,7 +17644,7 @@ CREATE TABLE `imagine_comments` (
 -- Records of imagine_comments
 -- ----------------------------
 BEGIN;
-INSERT INTO `imagine_comments` (`id`, `user_id`, `resource_id`, `resource_type`, `comment`, `created_at`, `updated_at`) VALUES (1, 5, 1, 'article', 'hi', NULL, NULL);
+INSERT INTO `imagine_comments` (`id`, `user_id`, `resource_id`, `resource_type`, `comment`, `created_at`, `updated_at`) VALUES (1, 1, 1, 'article', 'hi', NULL, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -17594,7 +17694,7 @@ CREATE TABLE `imagine_forgot_password_requests` (
   `redeemed_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`,`request_code`) USING BTREE,
   KEY `user` (`user_id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of imagine_forgot_password_requests
@@ -17605,6 +17705,19 @@ INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`,
 INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (3, 2002314, '647b387d-6a24-43ac-b1a4-6b915533f4a8', 1694834712, 1694921112, 1694835230);
 INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (4, 2002314, 'f67a1224-51e1-4fa2-8f8f-cb2cfbd82a25', 1694834732, 1694921132, 1694835098);
 INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (5, 2002314, 'b9c8e8cd-f1dd-451d-9382-fca273741c07', 1694835156, 1694921556, 1694835178);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (6, 1, 'f1761474-1076-4c72-b21c-d8973a0458ee', 1713057571, 1713143971, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (7, 1, '55460e3f-fbe8-48e4-b654-93cd338ba74a', 1713057577, 1713143977, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (8, 1, 'a82d1df8-4f8d-4a56-b6d8-373afb16db41', 1713057580, 1713143980, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (9, 1, '5ccea96b-0c87-495a-8479-f4253321dfc0', 1713057580, 1713143980, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (10, 1, 'a0e95b04-28c0-4aa6-bae3-3fc630797bd4', 1713057580, 1713143980, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (11, 1, 'c2e4c227-04e2-42ac-9380-003c4888a9c4', 1713057593, 1713143993, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (12, 1, '2a569748-f1d3-4b02-8d26-2cb1edf48aa8', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (13, 1, 'a8e474e9-26aa-476d-9f01-155ebbc5f797', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (14, 1, 'c67e2a62-5f57-4e8d-a0c2-92c5ee1ab7c7', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (15, 1, '26e174ac-01e2-4336-9d7b-6f90573b828d', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (16, 1, '4d9a6dad-eade-4d51-979a-1ff987ec7bb8', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (17, 1, 'a148ac13-a781-44d5-9b6a-be8be1060fdd', 1713057594, 1713143994, NULL);
+INSERT INTO `imagine_forgot_password_requests` (`id`, `user_id`, `request_code`, `created_at`, `expires_at`, `redeemed_at`) VALUES (18, 1, 'c006c5bc-18d2-491a-ac5d-186cd4ee707f', 1713057608, 1713144008, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -17695,15 +17808,14 @@ CREATE TABLE `imagine_sessions` (
   PRIMARY KEY (`id`) USING BTREE,
   KEY `imagine_sessions.user` (`user_id`) USING BTREE,
   CONSTRAINT `imagine_sessions_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of imagine_sessions
 -- ----------------------------
 BEGIN;
-INSERT INTO `imagine_sessions` (`id`, `user_id`, `created_at`, `updated_at`) VALUES (1, 19, NULL, NULL);
-INSERT INTO `imagine_sessions` (`id`, `user_id`, `created_at`, `updated_at`) VALUES (2, 19, NULL, NULL);
-INSERT INTO `imagine_sessions` (`id`, `user_id`, `created_at`, `updated_at`) VALUES (3, 19, NULL, NULL);
+INSERT INTO `imagine_sessions` (`id`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, NULL, NULL);
+INSERT INTO `imagine_sessions` (`id`, `user_id`, `created_at`, `updated_at`) VALUES (7, 34, NULL, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -17845,7 +17957,7 @@ CREATE TABLE `items` (
   KEY `extra_data` (`extra_data`) USING BTREE,
   KEY `wired_data` (`wired_data`(3072)) USING BTREE,
   KEY `id` (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=621 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=865 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of items
@@ -17855,15 +17967,15 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (2, 1, 1, 3590, '', 13, 1, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (3, 1, 1, 3590, '', 9, 1, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (4, 1, 1, 3590, '', 1, 1, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (5, 1, 1, 2598, '', 13, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (5, 2, 0, 2598, '', 13, 8, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (6, 1, 0, 3606, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (7, 1, 0, 3606, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (8, 1, 0, 3606, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (9, 1, 0, 3606, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (10, 1, 1, 3604, '', 2, 1, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (11, 1, 1, 3604, '', 6, 1, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (12, 1, 1, 3604, '', 10, 1, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (13, 1, 1, 3604, '', 14, 1, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (10, 1, 0, 3604, '', 2, 1, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (11, 1, 0, 3604, '', 6, 1, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (12, 1, 0, 3604, '', 8, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (13, 1, 0, 3604, '', 14, 1, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (14, 1, 1, 3586, '', 1, 5, 0.100000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (15, 1, 1, 3586, '', 5, 5, 0.100000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (16, 1, 1, 3586, '', 9, 5, 0.100000, 2, '0', '', '0:0', 0);
@@ -17871,13 +17983,13 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (18, 1, 0, 3608, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (19, 1, 0, 3608, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (20, 1, 1, 5707, '', 1, 1, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (21, 1, 1, 5707, '', 1, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (21, 1, 1, 5707, '', 1, 3, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (22, 1, 1, 5707, '', 1, 5, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (23, 1, 1, 5707, '', 1, 7, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (24, 1, 1, 5707, '', 1, 9, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (25, 1, 1, 5707, '', 1, 11, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (26, 1, 1, 5707, '', 7, 9, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (27, 1, 1, 5707, '', 7, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (27, 1, 1, 5707, '', 7, 7, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (28, 1, 1, 5707, '', 7, 5, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (29, 1, 1, 5707, '', 7, 3, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (30, 1, 1, 5707, '', 7, 1, 0.000000, 0, '0', '', '0:0', 0);
@@ -17885,17 +17997,17 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (32, 1, 1, 5707, '', 5, 1, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (33, 1, 1, 5707, '', 5, 3, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (34, 1, 1, 5707, '', 3, 3, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (35, 1, 1, 5707, '', 3, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (35, 1, 1, 5707, '', 3, 5, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (36, 1, 1, 5707, '', 5, 5, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (37, 1, 1, 5707, '', 5, 7, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (38, 1, 1, 5707, '', 3, 7, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (39, 1, 1, 5707, '', 3, 9, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (40, 1, 1, 5707, '', 5, 9, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (41, 1, 1, 5707, '', 5, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (41, 1, 1, 5707, '', 5, 11, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (42, 1, 1, 5707, '', 3, 11, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (43, 1, 1, 5707, '', 7, 11, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (44, 1, 1, 5707, '', 9, 11, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (45, 1, 1, 5707, '', 9, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (45, 1, 1, 5707, '', 9, 9, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (46, 1, 1, 5707, '', 9, 7, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (47, 1, 1, 5707, '', 9, 5, 0.000000, 2, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (48, 1, 1, 5707, '', 9, 3, 0.000000, 0, '0', '', '0:0', 0);
@@ -17907,11 +18019,11 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (54, 1, 1, 5707, '', 11, 9, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (55, 1, 1, 5707, '', 11, 11, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (56, 1, 1, 5707, '', 13, 11, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (57, 1, 1, 5707, '', 13, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (57, 1, 1, 5707, '', 13, 9, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (58, 1, 1, 5707, '', 13, 1, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (59, 1, 1, 5707, '', 13, 3, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (60, 1, 1, 5707, '', 13, 5, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (61, 1, 1, 5707, '', 11, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (61, 1, 1, 5707, '', 11, 7, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (62, 1, 0, 5707, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (63, 1, 0, 5707, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (64, 1, 0, 5707, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
@@ -17950,14 +18062,14 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (97, 1, 0, 3588, '', 4, 8, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (98, 1, 0, 3588, '', 7, 7, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (99, 1, 0, 3588, '', 10, 7, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (100, 1, 1, 8073, '', 1, 8, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (101, 1, 1, 8073, '', 3, 8, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (102, 1, 1, 8073, '', 5, 8, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (103, 1, 1, 8073, '', 7, 8, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (104, 1, 1, 8073, '', 9, 8, 0.100000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (105, 1, 1, 8073, '', 11, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (100, 1, 1, 8073, '', 1, 6, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (101, 1, 1, 8073, '', 5, 6, 0.100000, 0, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (102, 1, 1, 8073, '', 9, 6, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (103, 2, 0, 8073, '', 7, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (104, 2, 0, 8073, '', 9, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (105, 1, 1, 8073, '', 13, 6, 0.100000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (106, 1, 2, 2598, '', 7, 7, 0.010000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (107, 1, 1, 2605, '', 14, 8, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (107, 2, 0, 2605, '', 14, 8, 0.100000, 4, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (108, 1, 2, 3532, '', 1, 1, 0.010000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (109, 1, 2, 3532, '', 3, 1, 0.010000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (110, 1, 2, 3532, '', 5, 1, 0.010000, 0, '0', '', '0:0', 0);
@@ -17982,7 +18094,7 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (129, 1, 0, 3532, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (130, 1, 0, 3532, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (131, 1, 0, 3532, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (132, 1, 0, 3531, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (132, 1, 5, 3531, '', 12, 1, 0.300000, 4, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (133, 1, 0, 3531, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (134, 1, 0, 3531, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (135, 1, 0, 3531, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
@@ -18193,7 +18305,7 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (340, 1, 2, 3284, '', 6, 2, 0.010000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (341, 1, 2, 3284, '', 9, 2, 0.010000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (342, 1, 2, 3284, '', 12, 2, 0.010000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (343, 1, 0, 8053, '', 12, 9, 0.010000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (343, 1, 0, 8053, '', 8, 4, 0.100000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (344, 1, 2, 8062, '', 13, 12, 0.010000, 6, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (345, 1, 2, 8053, '', 12, 11, 0.010000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (346, 1, 2, 8062, '', 13, 11, 0.010000, 6, '0', '', '0:0', 0);
@@ -18206,45 +18318,45 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (353, 1, 2, 8028, '', 13, 9, 0.010000, 4, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (354, 1, 2, 8079, '', 5, 12, 0.010000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (355, 1, 3, 4034, '', 5, 11, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (356, 1, 0, 4034, '', 5, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (356, 1, 5, 4034, '', 1, 1, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (357, 1, 3, 4034, '', 5, 7, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (358, 1, 3, 4034, '', 5, 5, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (359, 1, 3, 4034, '', 5, 3, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (360, 1, 3, 4034, '', 5, 1, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (361, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (362, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (363, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (364, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (365, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (366, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (367, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (368, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (369, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (370, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (371, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (372, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (373, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (374, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (375, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (376, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (377, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (378, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (379, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (380, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (381, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (382, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (383, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (384, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (385, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (386, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (387, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (388, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (389, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (390, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (391, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (392, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (393, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (394, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (361, 1, 5, 4034, '', 3, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (362, 1, 5, 4034, '', 1, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (363, 1, 5, 4034, '', 1, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (364, 1, 5, 4034, '', 1, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (365, 1, 5, 4034, '', 1, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (366, 1, 5, 4034, '', 1, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (367, 1, 5, 4034, '', 3, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (368, 1, 5, 4034, '', 5, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (369, 1, 5, 4034, '', 7, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (370, 1, 5, 4034, '', 9, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (371, 1, 5, 4034, '', 11, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (372, 1, 5, 4034, '', 11, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (373, 1, 5, 4034, '', 11, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (374, 1, 5, 4034, '', 11, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (375, 1, 5, 4034, '', 11, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (376, 1, 5, 4034, '', 11, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (377, 1, 5, 4034, '', 9, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (378, 1, 5, 4034, '', 7, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (379, 1, 5, 4034, '', 5, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (380, 1, 5, 4034, '', 5, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (381, 1, 5, 4034, '', 7, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (382, 1, 5, 4034, '', 9, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (383, 1, 5, 4034, '', 9, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (384, 1, 5, 4034, '', 7, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (385, 1, 5, 4034, '', 5, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (386, 1, 5, 4034, '', 3, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (387, 1, 5, 4034, '', 3, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (388, 1, 5, 4034, '', 3, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (389, 1, 5, 4034, '', 7, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (390, 1, 5, 4034, '', 9, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (391, 1, 5, 4034, '', 9, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (392, 1, 5, 4034, '', 7, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (393, 1, 5, 4034, '', 5, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (394, 1, 5, 4034, '', 5, 9, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (395, 1, 3, 3270, '', 7, 1, 0.000001, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (396, 1, 3, 3270, '', 8, 1, 0.000001, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (397, 1, 3, 3270, '', 3, 1, 0.000001, 0, '0', '', '0:0', 0);
@@ -18303,8 +18415,8 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (450, 1, 3, 3265, '', 1, 5, 0.200000, 4, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (451, 1, 3, 3265, '', 9, 12, 0.200000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (452, 1, 3, 3265, '', 9, 6, 0.200000, 4, '1', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (453, 1, 0, 3265, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (454, 1, 0, 3265, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (453, 1, 5, 3265, '', 3, 1, 0.300000, 2, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (454, 1, 5, 3265, '', 7, 1, 0.300000, 6, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (455, 1, 0, 3265, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (456, 1, 0, 3265, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (457, 1, 0, 3265, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
@@ -18313,7 +18425,7 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (460, 1, 3, 3274, '', 1, 3, 0.000000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (461, 1, 3, 3274, '', 1, 5, 0.000000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (462, 1, 3, 3274, '', 1, 7, 0.000000, 2, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (463, 1, 0, 3274, '', 1, 9, 0.000000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (463, 1, 5, 3274, '', 1, 7, 0.100000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (464, 1, 3, 3274, '', 1, 11, 0.000000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (465, 1, 3, 3274, '', 9, 11, 0.000000, 6, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (466, 1, 3, 3274, '', 9, 9, 0.000000, 6, '0', '', '0:0', 0);
@@ -18321,13 +18433,13 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (468, 1, 3, 3274, '', 9, 5, 0.000000, 6, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (469, 1, 3, 3274, '', 9, 3, 0.000000, 6, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (470, 1, 3, 3274, '', 9, 1, 0.000000, 6, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (471, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (472, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (473, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (474, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (475, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (476, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (477, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (471, 1, 5, 3274, '', 3, 1, 0.100000, 4, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (472, 1, 5, 3274, '', 5, 1, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (473, 1, 5, 3274, '', 7, 1, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (474, 1, 5, 3274, '', 9, 1, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (475, 1, 5, 3274, '', 11, 1, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (476, 1, 5, 3274, '', 1, 9, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (477, 1, 5, 3274, '', 1, 11, 0.100000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (478, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (479, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (480, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
@@ -18351,8 +18463,8 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (498, 1, 0, 3274, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (499, 1, 3, 3272, '', 1, 4, 0.200000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (500, 1, 3, 3272, '', 9, 5, 0.200000, 2, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (501, 1, 0, 3272, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (502, 1, 0, 3272, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (501, 1, 5, 3272, '', 12, 12, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (502, 1, 5, 3272, '', 11, 1, 0.300000, 2, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (503, 1, 0, 3272, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (504, 1, 0, 3272, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (505, 1, 0, 3272, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
@@ -18471,6 +18583,250 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (618, 1, 0, 3110, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (619, 1, 3, 3087, '', 4, 10, 0.000001, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (620, 1, 3, 3090, '', 6, 8, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (621, 1, 1, 2693, '', 1, 10, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (622, 1, 3, 2693, '', 1, 10, 0.000001, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (623, 1, 3, 2693, '', 3, 12, 0.000001, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (624, 1, 2, 2693, '', 1, 10, 0.010000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (625, 2, 0, 4389, '', 13, 8, 0.100000, 0, '', '', '0:0', 3);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (626, 2, 0, 4389, '', 14, 8, 0.100000, 0, '', '', '0:0', 3);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (627, 2, 0, 4249, '', 1, 9, 0.100000, 2, '', '', '0:0', 3);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (628, 2, 0, 4250, '', 11, 9, 0.100000, 0, '', '', '0:0', 3);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (629, 2, 0, 4252, '', 0, 0, 0.000000, 0, '3', '', '0:0', 3);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (630, 1, 5, 4034, '', 3, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (631, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (632, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (633, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (634, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (635, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (636, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (637, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (638, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (639, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (640, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (641, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (642, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (643, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (644, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (645, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (646, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (647, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (648, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (649, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (650, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (651, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (652, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (653, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (654, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (655, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (656, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (657, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (658, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (659, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (660, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (661, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (662, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (663, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (664, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (665, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (666, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (667, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (668, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (669, 1, 0, 4034, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (670, 1, 5, 2618, '', 9, 6, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (671, 1, 5, 2617, '', 3, 5, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (672, 1, 5, 2617, '', 5, 3, 0.100000, 6, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (673, 1, 5, 2617, '', 3, 9, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (674, 1, 5, 2617, '', 5, 12, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (675, 1, 5, 2708, '', 3, 3, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (676, 1, 0, 2708, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (677, 1, 0, 3271, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (678, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (679, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (680, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (681, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (682, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (683, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (684, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (685, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (686, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (687, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (688, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (689, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (690, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (691, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (692, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (693, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (694, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (695, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (696, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (697, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (698, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (699, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (700, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (701, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (702, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (703, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (704, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (705, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (706, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (707, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (708, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (709, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (710, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (711, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (712, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (713, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (714, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (715, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (716, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (717, 1, 0, 42440, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (718, 1, 5, 2619, '', 8, 1, 0.300000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (719, 1, 5, 2619, '', 1, 7, 0.300000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (720, 1, 5, 2706, '', 1, 1, 0.300000, 0, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (721, 1, 5, 2706, '', 9, 7, 0.100000, 0, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (722, 1, 5, 2706, '', 4, 11, 0.100000, 0, '1', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (723, 1, 0, 2706, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (724, 1, 5, 2918, '', 3, 6, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (725, 1, 5, 2918, '', 6, 3, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (726, 1, 5, 2918, '', 11, 2, 0.300000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (727, 1, 0, 44080, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (728, 1, 0, 44080, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (729, 1, 0, 5273, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (730, 1, 0, 5273, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (731, 1, 5, 3268, '', 8, 12, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (732, 1, 0, 3275, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (733, 1, 0, 3275, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (734, 1, 5, 3274, '', 1, 1, 0.100000, 2, '3', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (735, 1, 5, 3274, '', 1, 3, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (736, 1, 5, 3274, '', 1, 5, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (737, 1, 5, 4167, '', 4, 1, 0.300000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (738, 1, 5, 4167, '', 5, 1, 0.300000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (739, 1, 5, 4167, '', 6, 1, 0.300000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (740, 1, 5, 8603, '', 1, 4, 0.300000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (741, 1, 5, 8603, '', 1, 5, 0.300000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (742, 1, 0, 8603, '', 10, 12, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (743, 1, 0, 8603, '', 11, 12, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (744, 1, 5, 8603, '', 12, 3, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (745, 1, 5, 8603, '', 11, 3, 0.100000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (746, 1, 0, 8603, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (747, 1, 0, 8603, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (748, 1, 0, 8603, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (749, 1, 5, 2693, '', 0, 10, 0.000000, 2, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (750, 1, 3, 2693, '', 5, 1, 0.100000, 4, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (751, 2, 6, 3602, '', 9, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (752, 2, 6, 3602, '', 11, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (753, 2, 6, 3602, '', 11, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (754, 2, 6, 3602, '', 11, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (755, 2, 6, 3602, '', 11, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (756, 2, 6, 3602, '', 11, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (757, 2, 6, 3602, '', 11, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (758, 2, 6, 3602, '', 11, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (759, 2, 6, 3602, '', 9, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (760, 2, 6, 3602, '', 7, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (761, 2, 6, 3602, '', 5, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (762, 2, 6, 3602, '', 3, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (763, 2, 6, 3602, '', 3, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (764, 2, 6, 3602, '', 5, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (765, 2, 6, 3602, '', 3, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (766, 2, 6, 3602, '', 5, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (767, 2, 6, 3602, '', 5, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (768, 2, 6, 3602, '', 3, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (769, 2, 6, 3602, '', 1, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (770, 2, 6, 3602, '', 1, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (771, 2, 6, 3602, '', 3, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (772, 2, 6, 3602, '', 3, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (773, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (774, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (775, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (776, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (777, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (778, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (779, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (780, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (781, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (782, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (783, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (784, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (785, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (786, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (787, 2, 0, 3602, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (788, 2, 6, 3602, '', 3, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (789, 2, 6, 3602, '', 5, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (790, 2, 6, 3602, '', 7, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (791, 2, 0, 3605, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (792, 2, 0, 3605, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (793, 2, 0, 3605, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (794, 2, 0, 3605, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (795, 2, 6, 3584, '', 3, 4, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (796, 2, 6, 3584, '', 6, 12, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (797, 2, 6, 3584, '', 11, 2, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (798, 2, 6, 3584, '', 12, 13, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (799, 2, 6, 3584, '', 7, 2, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (800, 2, 6, 3584, '', 6, 7, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (801, 2, 6, 3584, '', 10, 7, 0.000001, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (802, 2, 6, 3584, '', 11, 4, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (803, 2, 6, 3584, '', 7, 14, 0.000001, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (804, 2, 0, 3584, '', 1, 14, 1.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (805, 2, 0, 3584, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (806, 2, 0, 3584, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (807, 2, 6, 3609, '', 1, 13, 1.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (808, 2, 6, 3609, '', 9, 13, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (809, 2, 6, 3609, '', 5, 2, 0.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (810, 2, 6, 3609, '', 9, 13, 1.100000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (811, 2, 6, 3607, '', 1, 1, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (812, 2, 6, 3607, '', 1, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (813, 2, 6, 3607, '', 1, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (814, 2, 6, 3607, '', 1, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (815, 2, 6, 3607, '', 1, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (816, 2, 6, 3162, '', 7, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (817, 2, 6, 3162, '', 7, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (818, 2, 6, 3162, '', 7, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (819, 2, 6, 3162, '', 5, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (820, 2, 6, 3162, '', 7, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (821, 2, 6, 3162, '', 9, 3, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (822, 2, 6, 3162, '', 9, 5, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (823, 2, 6, 3162, '', 9, 7, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (824, 2, 6, 3162, '', 9, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (825, 2, 6, 3162, '', 9, 11, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (826, 2, 6, 3162, '', 7, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (827, 2, 6, 3162, '', 5, 13, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (828, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (829, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (830, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (831, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (832, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (833, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (834, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (835, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (836, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (837, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (838, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (839, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (840, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (841, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (842, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (843, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (844, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (845, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (846, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (847, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (848, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (849, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (850, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (851, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (852, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (853, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (854, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (855, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (856, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (857, 2, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (858, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (859, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (860, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (861, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (862, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (863, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (864, 1, 0, 3162, '', 0, 0, 0.000000, 0, '', '', '0:0', 0);
 COMMIT;
 
 -- ----------------------------
@@ -20210,7 +20566,7 @@ INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`,
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3281, 3281, 'MTV EMA Trophy', 'ads_mtvtrophy_silver', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3282, 3282, 'Ghostly Organ', 'hween09_organ', 's', 2, 1, 1.00, 1, 0, 0, 0, 1, 0, 0, 0, 1, 'default', 3, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3283, 3283, 'ads_idol_chmpgn', 'ads_idol_chmpgn', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
-INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3284, 3284, 'Clean Bench', 'urban_bench_plain', 's', 2, 1, 1.00, 0, 1, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
+INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3284, 3284, 'Clean Bench', 'urban_bench_plain', 's', 2, 1, 1.00, 0, 1, 0, 0, 1, 1, 0, 0, 1, 'rp_prison_bench', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3285, 3285, 'Creepy Trap Door', 'hween09_hatch', 's', 2, 2, 0.00, 1, 0, 0, 0, 1, 0, 0, 0, 1, 'gate', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3286, 3286, 'Creepy Table', 'hween09_table', 's', 1, 3, 1.00, 1, 0, 0, 0, 1, 0, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (3287, 3287, 'Strange Jar', 'hween09_jar', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 0, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
@@ -21089,14 +21445,14 @@ INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`,
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4164, 4164, 'Polished Floor', 'boutique_floor1a', 's', 1, 1, 0.10, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'default', 3, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4165, 4165, 'Boutique Shelf', 'boutique_table1', 's', 1, 1, 1.10, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4166, 4166, 'Pile Of Clothes', 'boutique_clothingpile', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 9, '0', '', '', 0, 0, '');
-INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4167, 4167, 'Red Changing Booth', 'boutique_changing1', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
-INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4168, 4168, 'Blue Changing Booth', 'boutique_changing3', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
+INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4167, 4167, 'Red Changing Booth', 'boutique_changing1', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'rp_wardrobe', 2, '0', '', '', 0, 0, '');
+INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4168, 4168, 'Blue Changing Booth', 'boutique_changing3', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'rp_wardrobe', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4169, 4169, 'Chaise Longue', 'boutique_sofa2', 's', 2, 1, 1.00, 0, 1, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4170, 4170, 'Mannequin', 'boutique_mannequin1', 's', 1, 1, 0.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'mannequin', 0, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4171, 4171, 'Pouf', 'boutique_sofa1', 's', 1, 1, 1.00, 0, 1, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4172, 4172, 'Boutique Counter', 'boutique_table2', 's', 3, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4173, 4173, 'Cash Register', 'boutique_cashreg', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
-INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4174, 4174, 'Purple Changing Booth', 'boutique_changing2', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
+INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4174, 4174, 'Purple Changing Booth', 'boutique_changing2', 's', 1, 1, 0.00, 1, 0, 0, 1, 1, 1, 0, 0, 1, 'rp_wardrobe', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4175, 4175, 'Small Shop Plant', 'boutique_plant1', 's', 1, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4176, 4176, 'Large Shop Plant', 'boutique_plant2', 's', 2, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
 INSERT INTO `items_base` (`id`, `sprite_id`, `public_name`, `item_name`, `type`, `width`, `length`, `stack_height`, `allow_stack`, `allow_sit`, `allow_lay`, `allow_walk`, `allow_gift`, `allow_trade`, `allow_recycle`, `allow_marketplace_sell`, `allow_inventory_stack`, `interaction_type`, `interaction_modes_count`, `vending_ids`, `multiheight`, `customparams`, `effect_id_male`, `effect_id_female`, `clothing_on_walk`) VALUES (4177, 4177, 'Glass Display Case', 'boutique_counter', 's', 2, 1, 1.00, 1, 0, 0, 0, 1, 1, 0, 0, 1, 'default', 2, '0', '', '', 0, 0, '');
@@ -29238,6 +29594,9 @@ CREATE TABLE `items_teleports` (
 -- Records of items_teleports
 -- ----------------------------
 BEGIN;
+INSERT INTO `items_teleports` (`teleport_one_id`, `teleport_two_id`) VALUES (621, 622);
+INSERT INTO `items_teleports` (`teleport_one_id`, `teleport_two_id`) VALUES (623, 624);
+INSERT INTO `items_teleports` (`teleport_one_id`, `teleport_two_id`) VALUES (749, 750);
 COMMIT;
 
 -- ----------------------------
@@ -29284,7 +29643,7 @@ CREATE TABLE `logs_shop_purchases` (
   PRIMARY KEY (`id`) USING BTREE,
   KEY `timestamp` (`timestamp`) USING BTREE,
   KEY `user_id` (`user_id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of logs_shop_purchases
@@ -29338,6 +29697,37 @@ INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_i
 INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (46, 1711585742, 1, 1530, '599;598;597;596;595;594;593;592;591;590;589;588;587;586;585;584;583;582;581;580;579;578;577;576;575;574;573;572;571;570;618;617;616;615;614;613;612;611;610;569;568;567;566;565;564;563;562;561;560;609;608;607;606;605;604;603;602;601;600;559;558;557;556;555;554;553;552;551;550;549;548;547;546;545;544;543;542;541;540;539;538;537;536;535;534;533;532;531;530;529;528;527;526;525;524;523;522;521;520;519', 'bump_road', 268, 0, 0, 100);
 INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (47, 1711585955, 1, 1507, '619', 'bump_tottero', 4, 0, 0, 1);
 INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (48, 1711585957, 1, 1510, '620', 'bump_signs', 4, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (49, 1711644471, 1, 1113, '622;621', 'teleport_door', 5, 10, 5, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (50, 1711644512, 1, 1113, '624;623', 'teleport_door', 5, 10, 5, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (51, 1711856968, 2, 2798, '625', 'gld_gate', 7, 10, 5, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (52, 1711856970, 2, 2798, '626', 'gld_gate', 7, 10, 5, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (53, 1711856973, 2, 2661, '627', 'gld_badgewall_tall', 4, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (54, 1711857003, 2, 2662, '628', 'gld_stool2', 1, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (55, 1711857015, 2, 2664, '629', 'gld_wall_tall', 1, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (56, 1711867632, 1, 10234, '', 'a0 pet3', 20, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (57, 1711907253, 1, 2448, '631;664;635;668;639;638;637;636;669;634;633;666;665;630;663;662;661;660;659;658;657;656;655;654;653;652;651;650;632;667;649;648;647;646;645;644;643;642;641;640', 'sb_tile', 112, 0, 0, 40);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (58, 1711907308, 1, 1038, '670', 'Grunge Mattress', 4, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (59, 1711907312, 1, 1037, '674;673;672;671', 'Grunge Chair', 8, 0, 0, 4);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (60, 1711907314, 1, 1128, '676;675', 'grunge_candle', 8, 0, 0, 2);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (61, 1711907315, 1, 1687, '677', 'urban_bsktbll', 4, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (62, 1711907318, 1, 9775, '694;695;698;709;708;707;706;705;697;696;702;701;693;692;691;690;700;704;689;688;687;686;685;684;683;682;681;680;699;703;679;678;717;716;715;714;713;712;711;710', 'urban_wall', 84, 0, 0, 40);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (63, 1711907322, 1, 1039, '719;718', 'Grunge Shelf', 10, 0, 0, 2);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (64, 1711907324, 1, 1126, '723;722;721;720', 'grunge_barrel', 16, 0, 0, 4);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (65, 1711907327, 1, 1338, '726;725;724', 'det_divider', 12, 0, 0, 3);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (66, 1711907329, 1, 9940, '728;727', 'sb_tag2', 6, 0, 0, 2);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (67, 1711907332, 1, 3676, '729;730', 'grungelamp', 8, 0, 0, 2);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (68, 1711907335, 1, 1684, '731', 'urban_carsofa', 3, 0, 0, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (69, 1711907339, 1, 1691, '732;733', 'urban_fence_corner', 8, 0, 0, 2);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (70, 1711907341, 1, 1690, '736;735;734', 'urban_sidewalk', 12, 0, 0, 3);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (71, 1711907552, 1, 2579, '739;738;737', 'boutique_changing1', 12, 0, 0, 3);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (72, 1711907725, 1, 7006, '748;747;746;745;744;743;742;741;740', 'clothing_punkoutfit1', 128, 0, 0, 9);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (73, 1711907778, 1, 1113, '749;750', 'teleport_door', 5, 10, 5, 1);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (74, 1711918130, 2, 2018, '772;771;770;753;754;785;769;768;767;766;765;764;763;762;761;760;790;759;758;757;756;789;788;787;752;751;784;783;782;781;780;755;786;779;778;777;776;775;774;773', 'african_patch', 112, 0, 0, 40);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (75, 1711918133, 2, 2021, '794;793;792;791', 'african_tree2', 16, 0, 0, 4);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (76, 1711918136, 2, 2000, '806;805;804;803;802;801;800;799;798;797;796;795', 'african_tree1', 36, 0, 0, 12);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (77, 1711918138, 2, 2025, '810;807;808;809', 'african_bones', 16, 0, 0, 4);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (78, 1711918140, 2, 2023, '815;814;813;812;811', 'african_stage', 20, 0, 0, 5);
+INSERT INTO `logs_shop_purchases` (`id`, `timestamp`, `user_id`, `catalog_item_id`, `item_ids`, `catalog_name`, `cost_credits`, `cost_points`, `points_type`, `amount`) VALUES (79, 1711918191, 2, 1582, '864;863;862;861;860;859;858;857;856;855;854;853;852;851;850;849;848;847;846;845;844;843;842;841;840;839;838;837;836;835;834;833;832;831;830;829;828;827;826;825;824;823;822;821;820;819;818;817;816', 'country_grass', 132, 0, 0, 49);
 COMMIT;
 
 -- ----------------------------
@@ -29583,51 +29973,6 @@ INSERT INTO `nux_gifts` (`id`, `type`, `value`, `image`) VALUES (3, 'item', 'san
 COMMIT;
 
 -- ----------------------------
--- Table structure for old_guilds_forums
--- ----------------------------
-DROP TABLE IF EXISTS `old_guilds_forums`;
-CREATE TABLE `old_guilds_forums` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `guild_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `subject` mediumtext NOT NULL,
-  `message` longtext NOT NULL,
-  `state` enum('OPEN','CLOSED','HIDDEN_BY_ADMIN','HIDDEN_BY_STAFF') NOT NULL DEFAULT 'OPEN',
-  `admin_id` int(11) NOT NULL DEFAULT 0,
-  `pinned` enum('0','1') NOT NULL DEFAULT '0',
-  `locked` enum('0','1') NOT NULL DEFAULT '0',
-  `timestamp` int(11) NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
-
--- ----------------------------
--- Records of old_guilds_forums
--- ----------------------------
-BEGIN;
-COMMIT;
-
--- ----------------------------
--- Table structure for old_guilds_forums_comments
--- ----------------------------
-DROP TABLE IF EXISTS `old_guilds_forums_comments`;
-CREATE TABLE `old_guilds_forums_comments` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `thread_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `timestamp` int(11) NOT NULL,
-  `message` longtext NOT NULL,
-  `state` enum('OPEN','CLOSED','HIDDEN_BY_ADMIN','HIDDEN_BY_STAFF') NOT NULL DEFAULT 'OPEN',
-  `admin_id` int(11) NOT NULL DEFAULT 0,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
-
--- ----------------------------
--- Records of old_guilds_forums_comments
--- ----------------------------
-BEGIN;
-COMMIT;
-
--- ----------------------------
 -- Table structure for permission_commands
 -- ----------------------------
 DROP TABLE IF EXISTS `permission_commands`;
@@ -29712,6 +30057,12 @@ INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_m
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_pet_info', ':petinfo <petname>', 'pet;pet_info;petinfo');
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_pick_all', ':pickall - Pick all furni from current room.', 'pickall;pickupall');
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_points', ':points <username> <amount> [type]', 'diamonds;points');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_arrest', ':arrest <username>', 'arrest');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_cuff', ':cuff <username>', 'cuff');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_escort', ':escort <username>', 'escort');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_release', ':release <username>', 'release');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_stun', ':stun <username>', 'stun');
+INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_police_uncuff', ':uncuff <username>', 'uncuff');
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_promote_offer', ':promoteoffer <offer_id> [info]', 'promoteoffer;promotetargetoffer;promote_offer');
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_pull', ':pull <username>', 'pull');
 INSERT INTO `permission_commands` (`name`, `description`, `keys`) VALUES ('cmd_push', ':push <username>', 'push');
@@ -30702,6 +31053,12 @@ INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_ty
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_pickall', '1');
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_plugins', '1');
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_points', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_arrest', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_cuff', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_escort', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_release', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_stun', '1');
+INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_police_uncuff', '1');
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_promote_offer', '1');
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_pull', '1');
 INSERT INTO `permission_group_commands` (`group_id`, `command_name`, `setting_type`) VALUES (7, 'cmd_push', '1');
@@ -32996,6 +33353,665 @@ INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711589684, 1711589687);
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711589687, 1711589690);
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711589690, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711634361, 1711635871);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711636496, 1711636518);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711636600, 1711636830);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711636839, 1711637172);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711637189, 1711638135);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638273, 1711638359);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638366, 1711638371);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638377, 1711638426);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638525, 1711638562);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638569, 1711638624);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638630, 1711638633);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638640, 1711638774);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638780, 1711638786);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711638791, 1711639874);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711639997, 1711640030);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640040, 1711640078);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640086, 1711640295);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640305, 1711640340);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640349, 1711640381);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640387, 1711640399);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640405, 1711640447);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640483, 1711640493);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640526, 1711640534);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640543, 1711640550);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640558, 1711640566);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640575, 1711640618);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640641, 1711640650);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640671, 1711640675);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640679, 1711640981);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711640987, 1711641065);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711641070, 1711641079);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711641084, 1711641101);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711641110, 1711641438);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711641443, 1711642367);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642390, 1711642487);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711642402, 1711643168);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642492, 1711642555);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642560, 1711642592);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642597, 1711642636);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642641, 1711642651);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642669, 1711642700);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642705, 1711642863);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711642868, 1711643097);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643102, 1711643166);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711643172, 1711643597);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643174, 1711643188);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643193, 1711643597);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643607, 1711643617);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711643617, 1711643775);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643784, 1711643788);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711643789, 1711643795);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643795, 1711643800);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711643800, 1711643834);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711643915, 1711644052);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644061, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644069, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644073, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644399, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644485, 1711644496);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711644496, 1711644499);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711644499, 1711644520);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711644520, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711644531, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644536, 1711644708);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711644983, 1711645078);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645087, 1711645404);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645409, 1711645431);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645443, 1711645619);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645628, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711645691, 1711645767);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645776, 1711645914);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711645922, 1711646226);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646235, 1711646364);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646373, 1711646416);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646425, 1711646438);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646447, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711646494, 1711646508);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646519, 1711646612);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646621, 1711646660);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711646669, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711646681, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711646725, 1711646940);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711647266, 1711650748);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711650780, 1711650801);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711650801, 1711651087);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651041, 1711651086);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651103, 1711651106);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651114, 1711651127);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651139, 1711651139);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651171, 1711651458);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651172, 1711651458);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711651467, 1711652007);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651474, 1711651559);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651563, 1711651573);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651576, 1711651623);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651627, 1711651646);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711651651, 1711652246);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711652013, 1711652246);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711675195, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711675201, 1711675573);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711675209, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711675214, 1711675574);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711675581, 1711675581);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711675607, 1711675648);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711675654, 1711675662);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711675668, 1711675789);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711676102, 1711676137);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711676144, 1711676236);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711676242, 1711676266);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711676290, 1711676404);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711676292, 1711676406);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711676411, 1711677662);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711676412, 1711677662);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711677668, 1711677673);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711677678, 1711678050);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711677915, 1711678050);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711678081, 1711678170);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711678177, 1711678284);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711678293, 1711679196);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711678303, 1711679196);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679203, 1711679299);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679306, 1711679315);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679322, 1711679352);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679358, 1711679369);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679376, 1711679390);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679402, 1711679407);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679414, 1711679434);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679499, 1711679499);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679512, 1711679550);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679557, 1711679634);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679640, 1711679664);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679671, 1711679713);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679723, 1711679759);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711679766, 1711680115);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680127, 1711680128);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680136, 1711680138);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680144, 1711680148);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680154, 1711680157);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680167, 1711680181);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680188, 1711680215);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680221, 1711680346);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711680396, 1711680607);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680405, 1711680607);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680638, 1711680648);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680653, 1711680657);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680664, 1711680683);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680689, 1711680720);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711680724, 1711681187);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711680728, 1711681187);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681215, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711681228, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681240, 1711681271);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681359, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681432, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711681437, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681442, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681471, 1711681493);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681501, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711681507, 1711681540);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681548, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711681554, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711681561, 1711682052);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711813165, 1711815353);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711813174, 1711814165);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711814170, 1711814252);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711814258, 1711814260);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711814266, 1711815001);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711815006, 1711815353);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711815360, 1711815383);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711815398, 1711815961);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816380, 1711816402);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816411, 1711816446);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816472, 1711816546);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816569, 1711816668);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816676, 1711816856);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711816861, 1711817494);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711817518, 1711817537);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (4, 1, 1711817537, 1711817556);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711817558, 1711818096);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818303, 1711818455);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818560, 1711818613);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818622, 1711818691);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818727, 1711818766);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711818766, 1711818855);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818862, 1711818919);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711818919, 1711818960);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711818969, 1711819090);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711819124, 1711819164);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711819164, 1711819276);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711819350, 1711819358);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711819358, 1711819419);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711819427, 1711819442);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711819442, 1711819518);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711819518, 1711819874);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824005, 1711824018);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824089, 1711824156);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824164, 1711824190);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824198, 1711824206);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711824206, 1711824251);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824453, 1711824652);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824660, 1711824725);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824729, 1711824744);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711824751, 1711824813);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711825643, 1711825695);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711825700, 1711825706);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711825711, 1711825942);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711825948, 1711826061);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711826383, 1711826503);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711826509, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711852633, 1711854024);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854035, 1711854106);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854113, 1711854201);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854210, 1711854309);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854319, 1711854460);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854469, 1711854655);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854670, 1711854735);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711854742, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711854764, 1711855385);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711855391, 1711855392);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711855396, 1711856225);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711856492, 1711857146);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711862420, 1711862473);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711862701, 1711862817);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711862822, 1711862884);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711862931, 1711862980);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863010, 1711863011);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863048, 1711863153);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863210, 1711863222);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863277, 1711863292);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863297, 1711863365);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863437, 1711863540);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711863550, 1711864649);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711864657, 1711864674);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711864679, 1711864724);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711864771, 1711864865);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711864870, 1711864916);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711864922, 1711865122);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711865127, 1711865361);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711865368, 1711865395);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711865402, 1711865506);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711865511, 1711865616);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711865704, 1711867179);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711867246, 1711867372);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711867381, 1711867612);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711867621, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711867661, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711867666, 1711867896);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711867901, 1711868117);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711868129, 1711868157);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711868162, 1711868272);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711868272, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711868280, 1711900403);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900403, 1711900423);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900424, 1711900427);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900435, 1711900618);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900651, 1711900711);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900866, 1711900901);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900907, 1711900940);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900947, 1711900973);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900979, 1711900983);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711900988, 1711900996);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711901018, 1711901028);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711901034, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711901412, 1711901424);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711901429, 1711901924);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711902860, 1711902868);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711902868, 1711902929);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711902938, 1711902942);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711902942, 1711902991);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903001, 1711903009);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711903009, 1711903048);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903056, 1711903059);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711903059, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903081, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711903085, 1711903531);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711903326, 1711903526);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1711903526, 1711903531);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711903539, 1711903618);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903556, 1711903560);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711903560, 1711903618);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903626, 1711903701);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711903701, 1711903720);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903720, 1711903726);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711903727, 1711903781);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711903797, 1711903958);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711903958, 1711904054);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711904065, 1711904109);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711904121, 1711905930);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711904124, 1711904766);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 19, 1711904284, 1711904766);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 19, 1711904979, 1711905797);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 19, 1711905801, 1711905931);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711905935, 1711906434);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711906439, 1711906554);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711906560, 1711906934);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711906939, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711906989, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711907008, 1711907183);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711907183, 1711907302);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711907302, 1711907695);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711907695, 1711907697);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711907697, 1711907789);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711907789, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711907805, 1711909657);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711910243, 1711910250);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711910250, 1711910261);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711910261, 1711910298);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711910323, 1711910328);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711910328, 1711911341);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711911350, 1711911364);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711911364, 1711911369);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711911369, 1711911401);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711911413, 1711911425);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711911425, 1711912076);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711912085, 1711912093);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711912093, 1711912263);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711912273, 1711912279);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711912279, 1711912706);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711912714, 1711912730);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1711912730, 1711912781);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711912781, 1711912903);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711912915, 1711913002);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711913059, 1711913250);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711913269, 1711913686);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711913952, 1711914106);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914114, 1711914189);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914197, 1711914344);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914352, 1711914383);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914390, 1711914522);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914530, 1711914538);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914547, 1711914698);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914707, 1711914740);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914748, 1711914799);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711914807, 1711914981);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915011, 1711915053);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915060, 1711915112);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915140, 1711915396);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915404, 1711915554);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915574, 1711915593);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915647, 1711915862);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915870, 1711915892);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711915945, 1711916060);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916075, 1711916135);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916143, 1711916187);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916195, 1711916387);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916405, 1711916431);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916439, 1711916471);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916486, 1711916607);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711916616, 1711916986);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711916671, 1711916986);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711917010, 1711917120);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711917017, 1711917052);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711917052, 1711917061);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711917061, 1711917077);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711917077, 1711917098);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1711917098, 1711917102);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711917102, 1711917115);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711917120, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711917131, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1711917134, 1711917175);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711917421, 1711917439);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711917443, 1711917446);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711917446, 1711917450);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711917450, 1711917819);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711917828, 1711917907);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711917907, 1711917932);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711917943, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711917983, 1711917990);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711918031, 1711918038);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711918038, 1711918106);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711918106, 1711918311);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711918336, 1711918340);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711918340, 1711919032);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 19, 1711918480, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 19, 1711918485, 1711918486);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 19, 1711918486, 1711918980);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 19, 1711918980, 1711918982);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 19, 1711918982, 1711919039);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711919032, 1711919034);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1711919034, 1711919984);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 19, 1711919039, 1711919041);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 19, 1711919041, 1711919402);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 19, 1711919458, 1711919984);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711920025, 1711932465);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711932642, 1711932892);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711932904, 1711933103);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711933109, 1711933129);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711933135, 1711933139);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711933145, 1711933180);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711933186, 1711933193);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711933326, 1711937745);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711937725, 1711937730);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1711937730, 1711938616);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1711937745, 1711938616);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711941299, 1711941476);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711941355, 1711941476);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711942658, 1711943078);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711942666, 1711942716);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711942722, 1711942723);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711942728, 1711942758);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711942763, 1711943078);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711943089, 1711943258);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711943094, 1711943258);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711943266, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1711943277, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711982732, 1711982766);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711982770, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711982777, 1711983822);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711982777, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711983831, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1711983835, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 2, 1711983845, 1711984173);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1711984177, 1711984619);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712005451, 1712006137);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712005470, 1712006137);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006264, 1712006554);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712006271, 1712006555);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006559, 1712006620);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006625, 1712006637);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006642, 1712006643);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006648, 1712006652);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006658, 1712006696);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006702, 1712006719);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006730, 1712006878);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006886, 1712006976);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712006894, 1712006976);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712006984, 1712007077);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712006992, 1712007077);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712007084, 1712007257);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712007091, 1712007257);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712007265, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712007271, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712007276, 1712007312);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712007279, 1712007312);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712007324, 1712007330);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712007336, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712007340, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712007342, 1712008936);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712007346, 1712008936);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712008945, 1712009063);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712008955, 1712009063);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009085, 1712009218);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009089, 1712009218);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009228, 1712009378);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009234, 1712009378);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009389, 1712009390);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009402, 1712009526);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009406, 1712009526);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009535, 1712009571);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009537, 1712009571);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009579, 1712009965);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009582, 1712009965);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712009973, 1712010056);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712009981, 1712010056);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010086, 1712010116);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010087, 1712010116);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010126, 1712010159);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010127, 1712010159);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010179, 1712010268);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010182, 1712010268);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010276, 1712010308);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010279, 1712010308);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010316, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010321, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712010353, 1712010444);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712010355, 1712010446);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712010453, 1712010458);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 2, 1712010458, 1712010578);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712010460, 1712010463);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712010463, 1712010473);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 1, 1712010473, 1712010580);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712011221, 1712011332);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712011503, 1712011751);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712011515, 1712011779);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712011771, 1712012000);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712011794, 1712012000);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712012008, 1712012223);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012013, 1712012223);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712012232, 1712012309);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012237, 1712012309);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012317, 1712012317);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012322, 1712012422);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712012325, 1712012422);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012430, 1712012456);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712012436, 1712012486);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712012584, 1712012687);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712012587, 1712012605);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712084953, 1712085279);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712085341, 1712086082);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712086086, 1712086101);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712086096, 1712086117);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712086134, 1712086147);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712086136, 1712086190);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712086206, 1712087526);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712086209, 1712087526);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712087536, 1712087558);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712087548, 1712087589);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712087600, 1712087635);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712087605, 1712087635);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712087672, 1712087818);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712087679, 1712087818);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712087921, 1712087994);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712087923, 1712087994);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088155, 1712088254);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712088167, 1712088254);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712088262, 1712088751);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088265, 1712088751);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088761, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088805, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088839, 1712088884);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712088846, 1712088884);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088895, 1712088944);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712088897, 1712088944);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712088962, 1712089298);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712088965, 1712089298);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712089314, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712089317, 1712089398);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712089398, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712089450, 1712089540);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712089464, 1712089540);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712089566, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712089576, 1712090181);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090192, 1712090325);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090365, 1712090454);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090466, 1712090541);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090549, 1712090685);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090693, 1712090709);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090727, 1712090988);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712090998, 1712091384);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712091865, 1712091874);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712092301, 1712092310);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712092310, 1712092342);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712092349, 1712092441);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712092358, 1712092441);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712092449, 1712092455);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712092455, 1712092473);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1712092473, 1712092476);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (6, 1, 1712092476, 1712092479);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712092479, 1712092482);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1712092482, 1712092487);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712092487, 1712092489);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712092489, 1712092651);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712092548, 1712092591);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712092591, 1712092651);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712092671, 1712092675);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712092675, 1712093491);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712092676, 1712092680);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712092680, 1712093501);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712093496, 1712093626);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712093505, 1712093627);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712093633, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712093637, 1712093650);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712093650, 1712093662);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712093662, 1712093688);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712093688, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712093701, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712093705, 1712093728);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 2, 1712093716, 1712093732);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712093728, 1712093817);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712093732, 1712093817);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712096822, 1712096851);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712096838, 1712096858);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712096851, 1712096900);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712096858, 1712096900);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712096909, 1712096929);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712096911, 1712096926);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712096926, 1712096982);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712096929, 1712096931);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712096931, 1712096982);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712097024, 1712097034);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712097026, 1712097039);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712097035, 1712097103);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712097039, 1712097103);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712097116, 1712097119);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712097119, 1712097646);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712097120, 1712097122);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712097122, 1712097125);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712097125, 1712097646);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712097658, 1712097700);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712097669, 1712097687);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712097687, 1712097944);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712097700, 1712097944);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712097956, 1712097976);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712097961, 1712097969);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712097969, 1712098050);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712097976, 1712098050);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712098061, 1712098065);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712098065, 1712098269);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712098068, 1712098072);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712098072, 1712098269);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712098304, 1712098308);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712098308, 1712098456);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712098310, 1712098314);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712098314, 1712098456);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712098471, 1712098476);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712098476, 1712098543);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712098477, 1712098481);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712098481, 1712098543);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712098612, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712098619, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712099314, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1712099317, 1712099393);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712099354, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1712099367, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1712099384, 1712099849);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1712099393, 1712099848);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712201657, 1712202709);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1712624235, 1712624608);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1712624486, 1712624608);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713019042, 1713019553);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713019562, 1713020269);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713019571, 1713019583);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021110, 1713021127);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021223, 1713021240);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021258, 1713021298);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021282, 1713021356);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021367, 1713021376);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021404, 1713021424);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021459, 1713021496);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021487, 1713021558);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021567, 1713021584);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021577, 1713021602);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021616, 1713021657);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021689, 1713021806);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021802, 1713021848);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713021900, 1713021921);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021960, 1713021976);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713021996, 1713022005);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713022033, 1713022047);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713022078, 1713022129);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713022138, 1713022149);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713022157, 1713022203);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713022226, 1713022256);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023147, 1713023186);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023247, 1713023252);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023370, 1713023377);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023394, 1713023410);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023412, 1713023426);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023541, 1713023558);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023560, 1713023751);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023760, 1713023767);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023787, 1713023815);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023826, 1713023860);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023891, 1713023937);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023946, 1713023956);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713023963, 1713024425);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713024000, 1713024425);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713024445, 1713024468);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713024452, 1713024468);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713024478, 1713024620);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713024485, 1713024561);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713024575, 1713024726);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713024698, 1713025144);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713024743, 1713025140);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713025142, 1713025144);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713029052, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713029059, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713029606, 1713031850);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1713029736, 1713031851);
 COMMIT;
 
 -- ----------------------------
@@ -33127,6 +34143,8 @@ INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, 
 INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, `heightmap`) VALUES (1, 'custom_1', 0, 10, 2, 'xxxxxxxxxxxxxxx\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\r000000000000000\rx00000000000000\rx00000000000000');
 INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, `heightmap`) VALUES (2, 'custom_2', 0, 10, 2, 'xxxxxxxxxxxxxxx\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\rx00000000000000\r000000000000000\rx00000000000000\rx00000000000000');
 INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, `heightmap`) VALUES (3, 'custom_3', 0, 10, 1, 'xxxxxxxxxxxxx\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\r0000000000000\rx000000000000\rx000000000000');
+INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, `heightmap`) VALUES (5, 'custom_5', 0, 10, 2, 'xxxxxxxxxxxxx\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\r0000000000000\rx000000000000\rx000000000000');
+INSERT INTO `room_models_custom` (`id`, `name`, `door_x`, `door_y`, `door_dir`, `heightmap`) VALUES (6, 'custom_6', 0, 10, 2, 'xxxxxxxxxxxxx\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000\r0000000000000\rx000000000000\rx000000000000\rx000000000000\rx000000000000');
 COMMIT;
 
 -- ----------------------------
@@ -33196,12 +34214,13 @@ CREATE TABLE `room_trade_log` (
   PRIMARY KEY (`id`) USING BTREE,
   KEY `user_one_id` (`user_one_id`) USING BTREE,
   KEY `user_two_id` (`user_two_id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of room_trade_log
 -- ----------------------------
 BEGIN;
+INSERT INTO `room_trade_log` (`id`, `user_one_id`, `user_two_id`, `user_one_ip`, `user_two_ip`, `timestamp`, `user_one_item_count`, `user_two_item_count`) VALUES (1, 2, 1, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1', 1712011656, 7, 0);
 COMMIT;
 
 -- ----------------------------
@@ -33222,6 +34241,13 @@ CREATE TABLE `room_trade_log_items` (
 -- Records of room_trade_log_items
 -- ----------------------------
 BEGIN;
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 858, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 859, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 860, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 861, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 862, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 863, 2);
+INSERT INTO `room_trade_log_items` (`id`, `item_id`, `user_id`) VALUES (1, 864, 2);
 COMMIT;
 
 -- ----------------------------
@@ -33349,15 +34375,17 @@ CREATE TABLE `rooms` (
   KEY `state` (`state`) USING BTREE,
   KEY `description` (`description`) USING BTREE,
   KEY `users` (`users`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of rooms
 -- ----------------------------
 BEGIN;
-INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (1, 1, 'Chris', 'Hospital', '', 'model_i', '', 'open', 0, 100, 0, 9, 1, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
-INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (2, 1, 'Chris', 'Prison', '', 'model_i', '', 'open', 0, 100, 0, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
-INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (3, 1, 'Chris', 'Martin Luther King Blvd', '', 'model_i', '', 'open', 1, 10, 0, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (1, 1, 'Chris', 'Hospital', '', 'model_i', '', 'open', 0, 100, 3, 9, 1, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', 'hospital;passive;', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (2, 1, 'Chris', 'Prison', '', 'model_i', '', 'open', 0, 100, 0, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', 'passive;prison;', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (3, 1, 'Chris', 'Martin Luther King Blvd', '', 'model_i', '', 'open', 0, 10, 35, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (5, 1, 'Chris', 'Clothing Store', 'Clothing Store', 'model_i', '', 'open', 0, 10, 27, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '1', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (6, 2, 'Kevin', 'Marvin\'s Room', 'Marvin\'s Room', 'model_i', '', 'open', 0, 10, 34, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '1', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
 COMMIT;
 
 -- ----------------------------
@@ -33365,29 +34393,18 @@ COMMIT;
 -- ----------------------------
 DROP TABLE IF EXISTS `rp_corporations`;
 CREATE TABLE `rp_corporations` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `room_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `description` text NOT NULL,
-  `badge_code` varchar(255) NOT NULL DEFAULT 'FAN',
+  `guild_id` int(11) NOT NULL,
   `tags` varchar(255) NOT NULL,
-  `created_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
-  `updated_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
-  PRIMARY KEY (`id`,`room_id`) USING BTREE,
-  KEY `rp_corporations.user` (`user_id`),
-  KEY `rp_corporations.room` (`room_id`),
-  KEY `id` (`id`),
-  CONSTRAINT `rp_corporations.room` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `rp_corporations.user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  PRIMARY KEY (`guild_id`) USING BTREE,
+  CONSTRAINT `rp_corporations.guild` FOREIGN KEY (`guild_id`) REFERENCES `guilds` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of rp_corporations
 -- ----------------------------
 BEGIN;
-INSERT INTO `rp_corporations` (`id`, `room_id`, `user_id`, `name`, `description`, `badge_code`, `tags`, `created_at`, `updated_at`) VALUES (1, 3, 1, 'Unemployed', 'Unemployed users', 'FAN', 'welfare;government', 0, 0);
-INSERT INTO `rp_corporations` (`id`, `room_id`, `user_id`, `name`, `description`, `badge_code`, `tags`, `created_at`, `updated_at`) VALUES (4, 1, 1, 'Hospital', 'Hospital', 'FAN', '', 0, 0);
+INSERT INTO `rp_corporations` (`guild_id`, `tags`) VALUES (3, 'welfare');
+INSERT INTO `rp_corporations` (`guild_id`, `tags`) VALUES (26, 'police');
 COMMIT;
 
 -- ----------------------------
@@ -33396,88 +34413,31 @@ COMMIT;
 DROP TABLE IF EXISTS `rp_corporations_positions`;
 CREATE TABLE `rp_corporations_positions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `corporation_id` int(11) NOT NULL,
+  `guild_id` int(11) NOT NULL,
   `order_id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `description` text NOT NULL,
   `salary` int(11) NOT NULL DEFAULT 0,
   `male_figure` varchar(255) NOT NULL DEFAULT '-',
   `female_figure` varchar(255) NOT NULL DEFAULT '-',
+  `activity` varchar(255) NOT NULL DEFAULT 'Working',
   `can_hire` tinyint(1) NOT NULL,
   `can_fire` tinyint(1) NOT NULL,
   `can_promote` tinyint(1) NOT NULL,
   `can_demote` tinyint(1) NOT NULL,
-  `created_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
-  `updated_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
-  PRIMARY KEY (`id`,`corporation_id`),
-  UNIQUE KEY `unique_corporation_order_combo` (`corporation_id`,`order_id`),
+  `can_work_anywhere` tinyint(4) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`,`guild_id`) USING BTREE,
+  UNIQUE KEY `rp_corporations_positions.guild` (`guild_id`,`order_id`) USING BTREE,
   KEY `id` (`id`),
-  CONSTRAINT `rp_corporations_positions.corporation` FOREIGN KEY (`corporation_id`) REFERENCES `rp_corporations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  CONSTRAINT `rp_corporations_positions.guild` FOREIGN KEY (`guild_id`) REFERENCES `rp_corporations` (`guild_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of rp_corporations_positions
 -- ----------------------------
 BEGIN;
-INSERT INTO `rp_corporations_positions` (`id`, `corporation_id`, `order_id`, `name`, `description`, `salary`, `male_figure`, `female_figure`, `can_hire`, `can_fire`, `can_promote`, `can_demote`, `created_at`, `updated_at`) VALUES (2, 4, 1, 'Paramedic', 'Paramedic', 10, '-', '-', 1, 1, 1, 1, 0, 0);
-INSERT INTO `rp_corporations_positions` (`id`, `corporation_id`, `order_id`, `name`, `description`, `salary`, `male_figure`, `female_figure`, `can_hire`, `can_fire`, `can_promote`, `can_demote`, `created_at`, `updated_at`) VALUES (3, 1, 1, 'Bum', 'Bum', 1, '-', '-', 0, 0, 0, 0, 0, 0);
-INSERT INTO `rp_corporations_positions` (`id`, `corporation_id`, `order_id`, `name`, `description`, `salary`, `male_figure`, `female_figure`, `can_hire`, `can_fire`, `can_promote`, `can_demote`, `created_at`, `updated_at`) VALUES (4, 4, 2, 'Big Paramedic', 'Big Paramedic', 20, '--', '--', 1, 1, 1, 1, 0, 0);
-COMMIT;
-
--- ----------------------------
--- Table structure for rp_gangs
--- ----------------------------
-DROP TABLE IF EXISTS `rp_gangs`;
-CREATE TABLE `rp_gangs` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `room_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `description` text NOT NULL,
-  `badge_code` varchar(255) NOT NULL DEFAULT 'FAN',
-  `created_at` int(11) NOT NULL DEFAULT current_timestamp(),
-  `updated_at` int(11) NOT NULL DEFAULT current_timestamp(),
-  PRIMARY KEY (`id`,`room_id`) USING BTREE,
-  KEY `rp_gangs.user` (`user_id`),
-  KEY `rp_gangs.room` (`room_id`),
-  KEY `id` (`id`),
-  CONSTRAINT `rp_gangs.room` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `rp_gangs.user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- ----------------------------
--- Records of rp_gangs
--- ----------------------------
-BEGIN;
-INSERT INTO `rp_gangs` (`id`, `room_id`, `user_id`, `name`, `description`, `badge_code`, `created_at`, `updated_at`) VALUES (14, 1, 1, 'horses', 'horses', 'FAN', 1711561830, 1711561830);
-COMMIT;
-
--- ----------------------------
--- Table structure for rp_gangs_positions
--- ----------------------------
-DROP TABLE IF EXISTS `rp_gangs_positions`;
-CREATE TABLE `rp_gangs_positions` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `gang_id` int(11) NOT NULL,
-  `order_id` int(11) NOT NULL DEFAULT 1,
-  `name` varchar(255) NOT NULL,
-  `description` text NOT NULL,
-  `can_invite` tinyint(4) NOT NULL DEFAULT 0,
-  `can_kick` tinyint(4) NOT NULL DEFAULT 0,
-  `created_at` int(11) NOT NULL DEFAULT unix_timestamp(),
-  `updated_at` int(11) NOT NULL DEFAULT unix_timestamp(),
-  PRIMARY KEY (`id`,`gang_id`),
-  UNIQUE KEY `rp_gangs_positions.gang_combo` (`order_id`,`gang_id`) USING BTREE,
-  KEY `rp_gang_positions.gang` (`gang_id`),
-  KEY `id` (`id`),
-  CONSTRAINT `rp_gang_positions.gang` FOREIGN KEY (`gang_id`) REFERENCES `rp_gangs` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- ----------------------------
--- Records of rp_gangs_positions
--- ----------------------------
-BEGIN;
-INSERT INTO `rp_gangs_positions` (`id`, `gang_id`, `order_id`, `name`, `description`, `can_invite`, `can_kick`, `created_at`, `updated_at`) VALUES (14, 14, 1, 'Member', 'Member', 0, 0, 1711561830, 1711561830);
+INSERT INTO `rp_corporations_positions` (`id`, `guild_id`, `order_id`, `name`, `description`, `salary`, `male_figure`, `female_figure`, `activity`, `can_hire`, `can_fire`, `can_promote`, `can_demote`, `can_work_anywhere`) VALUES (5, 3, 1, 'Welfare Recipient', 'i don\'t work', 1, '-', '--', 'Receiving welfare', 0, 0, 0, 0, 0);
+INSERT INTO `rp_corporations_positions` (`id`, `guild_id`, `order_id`, `name`, `description`, `salary`, `male_figure`, `female_figure`, `activity`, `can_hire`, `can_fire`, `can_promote`, `can_demote`, `can_work_anywhere`) VALUES (22, 26, 1, 'Employee', 'I have a job!', 0, '-', '-', 'Working', 0, 0, 0, 0, 1);
 COMMIT;
 
 -- ----------------------------
@@ -33487,32 +34447,34 @@ DROP TABLE IF EXISTS `rp_users_stats`;
 CREATE TABLE `rp_users_stats` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
-  `current_health` int(11) NOT NULL DEFAULT 100,
-  `maximum_health` int(11) NOT NULL DEFAULT 100,
+  `health_now` int(11) NOT NULL DEFAULT 100,
+  `health_max` int(11) NOT NULL DEFAULT 100,
+  `energy_now` int(11) NOT NULL DEFAULT 100,
+  `energy_max` int(11) NOT NULL DEFAULT 100,
+  `hunger_now` int(11) NOT NULL DEFAULT 0,
+  `hunger_max` int(11) NOT NULL DEFAULT 100,
   `corporation_id` int(11) NOT NULL,
   `corporation_position_id` int(11) NOT NULL,
   `gang_id` int(11) DEFAULT NULL,
-  `gang_position_id` int(11) DEFAULT NULL,
+  `last_pos_x` int(11) DEFAULT NULL,
+  `last_pos_y` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `rp_user_stats.user` (`user_id`),
   KEY `rp_user_stats.corp` (`corporation_id`),
   KEY `rp_user_stats.corp_pos` (`corporation_position_id`),
   KEY `rp_user_stats.gang` (`gang_id`),
-  KEY `rp_user_stats.gang_pos` (`gang_position_id`),
-  CONSTRAINT `rp_user_stats.corp` FOREIGN KEY (`corporation_id`) REFERENCES `rp_corporations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `rp_user_stats.corp_pos` FOREIGN KEY (`corporation_position_id`) REFERENCES `rp_corporations_positions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `rp_user_stats.gang` FOREIGN KEY (`gang_id`) REFERENCES `rp_gangs` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
-  CONSTRAINT `rp_user_stats.gang_pos` FOREIGN KEY (`gang_position_id`) REFERENCES `rp_gangs_positions` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
+  CONSTRAINT `rp_user_stats.corp` FOREIGN KEY (`corporation_id`) REFERENCES `guilds` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `rp_user_stats.gang` FOREIGN KEY (`gang_id`) REFERENCES `guilds` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
   CONSTRAINT `rp_user_stats.user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of rp_users_stats
 -- ----------------------------
 BEGIN;
-INSERT INTO `rp_users_stats` (`id`, `user_id`, `current_health`, `maximum_health`, `corporation_id`, `corporation_position_id`, `gang_id`, `gang_position_id`) VALUES (2, 2, 100, 100, 1, 3, 14, 14);
-INSERT INTO `rp_users_stats` (`id`, `user_id`, `current_health`, `maximum_health`, `corporation_id`, `corporation_position_id`, `gang_id`, `gang_position_id`) VALUES (3, 1, 100, 100, 4, 2, 14, 14);
-INSERT INTO `rp_users_stats` (`id`, `user_id`, `current_health`, `maximum_health`, `corporation_id`, `corporation_position_id`, `gang_id`, `gang_position_id`) VALUES (4, 19, 100, 100, 1, 3, NULL, NULL);
+INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (2, 2, 100, 100, 100, 100, 0, 100, 26, 22, NULL, 1, 6);
+INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (3, 1, 100, 100, 100, 100, 0, 100, 3, 5, NULL, 2, 10);
+INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (5, 34, 100, 100, 100, 100, 0, 100, 3, 5, NULL, NULL, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -33860,12 +34822,28 @@ CREATE TABLE `support_tickets` (
   KEY `user_data` (`sender_id`,`reported_id`) USING BTREE,
   KEY `room_id` (`room_id`) USING BTREE,
   KEY `issue` (`issue`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of support_tickets
 -- ----------------------------
 BEGIN;
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (1, 1, 1, 1711903419, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (2, 1, 1, 1711903421, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (3, 1, 1, 1711903421, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (4, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (5, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (6, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (7, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (8, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (9, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (10, 1, 1, 1711903422, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (11, 1, 1, 1711903423, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (12, 1, 1, 1711903423, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (13, 1, 1, 1711903423, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (14, 1, 1, 1711903423, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (15, 1, 1, 1711903423, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Prison owned by %owner%', 1, -1, -1, -1, -1);
+INSERT INTO `support_tickets` (`id`, `state`, `type`, `timestamp`, `score`, `sender_id`, `reported_id`, `room_id`, `mod_id`, `issue`, `category`, `group_id`, `thread_id`, `comment_id`, `photo_item_id`) VALUES (16, 1, 1, 1711983964, 0, 0, 2, 0, -1, 'Kevin tried to buy a guild for room Martin Luther King Blvd owned by %owner%', 1, -1, -1, -1, -1);
 COMMIT;
 
 -- ----------------------------
@@ -33902,6 +34880,7 @@ CREATE TABLE `user_window_settings` (
 BEGIN;
 INSERT INTO `user_window_settings` (`user_id`, `x`, `y`, `width`, `height`, `open_searches`) VALUES (1, 100, 100, 425, 535, '0');
 INSERT INTO `user_window_settings` (`user_id`, `x`, `y`, `width`, `height`, `open_searches`) VALUES (2, 100, 100, 425, 535, '0');
+INSERT INTO `user_window_settings` (`user_id`, `x`, `y`, `width`, `height`, `open_searches`) VALUES (19, 100, 100, 425, 535, '0');
 COMMIT;
 
 -- ----------------------------
@@ -33949,15 +34928,15 @@ CREATE TABLE `users` (
   KEY `last_online` (`last_online`) USING BTREE,
   KEY `figure` (`motto`,`look`,`gender`) USING BTREE,
   KEY `auth_ticket` (`auth_ticket`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
 BEGIN;
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (1, 'Chris', 'SYSTEMACC', '', 'mail@hoster.de', '1', 1, 1, 1711589959, 1711586424, '', 'hd-3095-1.ch-93483434-1338-1336.lg-61156492-1338.sh-6225262-62.wa-800001713-1325-62', 'M', 7, 21478, 0, 0, '1', 'imagine_wBJuXkLwsj7c3UP0BYoe9twCRXxM2fNawBnfEGYofzbVwhJjhz_1', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (2, 'Kevin', 'SYSTEMACC', '', 'mail@hoster.de', '1', 1, 1, 1711586413, 1711586364, '', 'hr-100-0.hd-180-97562.ch-215-73.lg-270-73.sh-305-62.ha-1002-70.wa-2007-0', 'M', 7, 1100, 0, 0, '0', 'kevin_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (19, 'WiredL', 'KREWS DEV', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'WiredL@gmail.com', '0', 1711588625, 0, 0, 1711588620, 'Welcome to Imagine!', '-', 'M', 1, 100, 100, 50, '0', 'imagine_S8MS8dS1iWjTLSpBcCnzlP9SbgWRJDXMutgvCoSaJewN6SNJon_19', '', '', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (1, 'Chris', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713031851, 1713029059, 'Exploring', 'hd-3095-1.ch-93483434-1338-1336.lg-61156492-1338.sh-6225262-62.wa-800001713-1325-62', 'M', 7, 21529, 0, 0, '0', 'chris_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (2, 'Kevin', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713053126, 1713029051, 'Working', '-.hd-180-97562.ch-215-73.lg-270-73.sh-305-62.ha-1002-70.wa-2007-0', 'M', 7, 1100, 0, 0, '1', 'kevin_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (34, 'C', 'KREWS DEV', '$2a$10$KersO.qHNIMTnPw19jxGKeKnQdm38YheQmnXmBsvnPNQGp9db7DJm', 'c@gmail.com', '0', 1713062760, 0, 0, 1713062647, 'Welcome to Imagine!', '-', 'M', 1, 100, 100, 50, '0', 'imagine_SI9uYkCtK8VVeStD4F2tfnH7qWBgMV6wPQ1LFsLISXeKmdiyPb_34', '', '', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -34010,7 +34989,7 @@ CREATE TABLE `users_badges` (
   `slot_id` int(11) NOT NULL DEFAULT 0,
   `badge_code` varchar(32) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users_badges
@@ -34052,6 +35031,8 @@ CREATE TABLE `users_currency` (
 -- ----------------------------
 BEGIN;
 INSERT INTO `users_currency` (`user_id`, `type`, `amount`) VALUES (1, 0, 5);
+INSERT INTO `users_currency` (`user_id`, `type`, `amount`) VALUES (1, 5, 1000);
+INSERT INTO `users_currency` (`user_id`, `type`, `amount`) VALUES (2, 5, 10000);
 COMMIT;
 
 -- ----------------------------
@@ -34201,7 +35182,7 @@ CREATE TABLE `users_saved_searches` (
   `filter` varchar(255) DEFAULT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users_saved_searches
@@ -34213,6 +35194,9 @@ INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VA
 INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (4, 'official-root', '', 2);
 INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (5, 'my', '', 2);
 INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (6, 'favorites', '', 2);
+INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (7, 'official-root', '', 19);
+INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (8, 'my', '', 19);
+INSERT INTO `users_saved_searches` (`id`, `search_code`, `filter`, `user_id`) VALUES (9, 'favorites', '', 19);
 COMMIT;
 
 -- ----------------------------
@@ -34278,14 +35262,15 @@ CREATE TABLE `users_settings` (
   KEY `guild_id` (`guild_id`) USING BTREE,
   KEY `can_trade` (`can_trade`) USING BTREE,
   KEY `online_time` (`online_time`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users_settings
 -- ----------------------------
 BEGIN;
-INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (1, 1, 0, 0, 3, 3, 0, 0, 0, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 107395, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 0, 50, 300);
-INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (2, 2, 0, 0, 3, 3, 0, 0, 0, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 23086, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 0, 50, 300);
+INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (1, 1, 0, 0, 3, 3, 0, 0, 3, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 202439, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1711818646, 75, 1100);
+INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (2, 2, 0, 0, 3, 3, 0, 0, 26, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 87077, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1711903416, 75, 1100);
+INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (3, 19, 0, 0, 3, 3, 0, 0, 0, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 2958, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '0', 0, '0', '0', 0, 1, 1, 0, 0, 50, 300);
 COMMIT;
 
 -- ----------------------------
@@ -34304,12 +35289,14 @@ CREATE TABLE `users_subscriptions` (
   KEY `subscription_type` (`subscription_type`) USING BTREE,
   KEY `timestamp_start` (`timestamp_start`) USING BTREE,
   KEY `active` (`active`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users_subscriptions
 -- ----------------------------
 BEGIN;
+INSERT INTO `users_subscriptions` (`id`, `user_id`, `subscription_type`, `timestamp_start`, `duration`, `active`) VALUES (1, 1, 'HABBO_CLUB', 1711818646, 10713600, 1);
+INSERT INTO `users_subscriptions` (`id`, `user_id`, `subscription_type`, `timestamp_start`, `duration`, `active`) VALUES (2, 2, 'HABBO_CLUB', 1711903416, 2678400, 1);
 COMMIT;
 
 -- ----------------------------
@@ -34343,7 +35330,7 @@ CREATE TABLE `users_wardrobe` (
   `look` varchar(256) NOT NULL,
   `gender` enum('M','F') NOT NULL DEFAULT 'F',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of users_wardrobe
@@ -34351,6 +35338,7 @@ CREATE TABLE `users_wardrobe` (
 BEGIN;
 INSERT INTO `users_wardrobe` (`id`, `user_id`, `slot_id`, `look`, `gender`) VALUES (1, 1, 1, 'hd-1000000269-97540-97540', 'M');
 INSERT INTO `users_wardrobe` (`id`, `user_id`, `slot_id`, `look`, `gender`) VALUES (2, 1, 2, 'hd-3095-1.ch-93483434-1338-1336.lg-61156492-1338.sh-6225262-62.wa-800001713-1325-62', 'M');
+INSERT INTO `users_wardrobe` (`id`, `user_id`, `slot_id`, `look`, `gender`) VALUES (3, 1, 3, 'hd-3095-1.ch-225-82.lg-285-82.sh-6225262-62.wa-2009-62.fa-1212-62', 'M');
 COMMIT;
 
 -- ----------------------------

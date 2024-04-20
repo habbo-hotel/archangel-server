@@ -11,7 +11,7 @@
  Target Server Version : 110302 (11.3.2-MariaDB-1:11.3.2+maria~ubu2204)
  File Encoding         : 65001
 
- Date: 13/04/2024 22:49:13
+ Date: 20/04/2024 11:47:35
 */
 
 SET NAMES utf8mb4;
@@ -13941,6 +13941,9 @@ INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`,
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (2, 2, 0, ':release Chris', 1712097718);
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'y', 1713022082);
 INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, 'noty', 1713022083);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, ':enable {     \"effects\": [         {             \"id\": \"dance.1\",             \"lib\": \"Dance1\",      ', 1713154438);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, ':enable Absentabs.nitro Adm.nitro Ak47CP.nitro AlienMask.nitro Ambassador.nitro Ambul.nitro AmongUsB', 1713154525);
+INSERT INTO `chatlogs_room` (`room_id`, `user_from_id`, `user_to_id`, `message`, `timestamp`) VALUES (1, 1, 0, ':equop glock17', 1713159478);
 COMMIT;
 
 -- ----------------------------
@@ -15402,7 +15405,7 @@ INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('ftp.host', 'example.co
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.room.rollers.roll_avatars.max', '1');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('hotel.nux.gifts.enabled', '0');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.enabled', '1');
-INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.next_date', '2024-04-15 00:00:00');
+INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.next_date', '2024-05-15 00:00:00');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.interval', '1 month');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.query', 'SELECT SUM(cost_credits) AS `amount_spent` FROM `logs_shop_purchases` WHERE `user_id` = @user_id AND `timestamp` > @timestamp_start AND `timestamp` <= @timestamp_end AND `catalog_name` NOT LIKE \'CF_%\' AND `catalog_name` NOT LIKE \'CFC_%\';');
 INSERT INTO `emulator_settings` (`key`, `value`) VALUES ('subscriptions.hc.payday.streak', '7=5;30=10;60=15;90=20;180=25;365=30');
@@ -16234,12 +16237,12 @@ INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.keys.cmd_update_
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.success.cmd_update_calendar', 'Calendar updated successfully!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('hotel.mannequin.name.default', 'My look');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('rcon.alert.user.change_username', 'You can change your username. Click on yourself to change it.');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.error.cmd_changename.user_not_found', 'The Habbo %user% does not exist or is not online.');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.succes.cmd_changename.done', 'Successfully toggled the name change for the Habbo %user%.');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.error.cmd_changename.user_not_found', 'The Habbo :username does not exist or is not online.');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.succes.cmd_changename.done', 'Successfully toggled the name change for the Habbo :username');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.succes.cmd_changename.received', 'Hotel staff requests for you to change your name.\n Please click on your Habbo then click on the \"Change Your Name\" button.');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.user_not_found', '%username% not found');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.set_health_gave', '*Heals %username% restoring %healthRestored% health*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.user_health_remaining', '*%currentHealth%/%maximumHealth% remaining*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.user_not_found', ':username not found');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.set_health_gave', '*Heals :username restoring :healthRestored health*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.user_health_remaining', '*:currentHealth/:maximumHealth remaining*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.user_is_dead', '*Sustains too many injuries and dies*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_equip_weapon_not_found', 'Weapon not found');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_user_is_unemployed', 'You don\'t have a job');
@@ -16251,12 +16254,12 @@ INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_fir
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_promote_not_allowed', 'You can\'t promote users');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hire_not_allowed', 'You can\'t hire users');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hire_user_has_same_employer', 'You work at the same company');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_fire_success', '*Fires %username% from their job*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_fire_success', '*Fires :username from their job*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_fire_impacted', '*Loses their job*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_superhire_invalid_corp', 'That company doesn\'t exist');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_superhire_invalid_position', 'That position doesn\'t exist');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_superhire_success', '*Superhires %username% to %corp% as %position%*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.started_new_job', '*Started a new role as %position% at %corp%*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_superhire_success', '*Superhires :username to :corp as :position*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.started_new_job', '*Started a new role as :position at :corp');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_demote_not_allowed_too_low', 'This user can\'t be demoted any further');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_promote_not_allowed_too_high', 'This user can\'t be promoted any higher');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_fire_user_is_self', 'You can\'t fire yourself');
@@ -16267,30 +16270,30 @@ INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gan
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.not_in_a_gang', 'You\'re not in a gang');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_create_name_is_required', 'Try giving your gang a name this time.  :gcreate <name>');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_create_name_is_taken', 'That name is taken!');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_create_success', '*Forms a gang called %gang%*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_create_success', '*Forms a gang called :gang*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_create_room_not_available', 'You can\'t form a gang here');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_disband_not_allowed', 'Only the founder can disband the gang');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_disband_success', '*Disbands my gang*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_user_already_in_gang', 'They\'re already in a gang!');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_received', 'You have been invited to a gang.  Type :gaccept %gang% to accept or :gdecline %gang% to reject');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_sent', '*Invites %user% to their gang*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_received', 'You have been invited to a gang.  Type :gaccept :gang to accept or :gdecline :gang to reject');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_sent', '*Invites :username to their gang*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.gang_not_found', 'That gang doesn\'t exist');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_missing', 'You don\'t have an invitation to join that gan');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_accepted', '*Accepts an invite to join %gang%*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_rejected', '*Rejects an invite to join %gang%*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_invite_not_in_a_gang', 'You don\'t belong to to a gang!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_kick_not_allowed', 'You\'re not allowed to kick people out of the gang!');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_kick_success', '*Kicks %user% out of their gang*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_kick_success', '*Kicks :username out of their gang*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_kick_received', '*Was kicked out of %gang%*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_leave_success', '*Left their gang*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_gang_leave_cant_is_owner', 'You can\'t leave a gang you founded!  Try :gdisband if you want to delete it');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.corp_not_found', 'Corp not found!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_missing', 'You don\'t have a job offer from this corp');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_rejected', '*Declines a job offer at %corp%*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_accepted', '*Accepts a job offer at %corp%*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_sent', '*Sent a job offer to %user%*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_received', 'You have received a job offer.  Type :caccept %corp% to accept or :cdecline %corp% to reject');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_success', '*Starts their shift as %position% at %corp%*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_rejected', '*Declines a job offer at :corp*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_accepted', '*Accepts a job offer at :corp*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_sent', '*Sent a job offer to :username*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_corp_invite_received', 'You have received a job offer.  Type :caccept :corp to accept or :cdecline :corp to reject');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_success', '*Starts their shift as :position at :corp');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_user_is_already_working', 'You\'re already working!');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_not_complete', 'You didn\'t finish your shift');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_time_left', '*Has :timeLeft left on their shift*');
@@ -16299,8 +16302,8 @@ INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_sto
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.corporation_shift_stopped', '*Stops working*');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('generic.roleplay.cant_leave_room_during_shift', 'You can\'t leave during your shift');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_not_in_boundaries', 'You can\'t start work outside of your job!');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hit_success', '*Hits %user% doing %damage% damage*');
-INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_motto', 'Working at %corp% as %position%');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_hit_success', '*Hits :username doing :damage damage*');
+INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_start_work_motto', 'Working at :corp as :position');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('commands.roleplay.cmd_stop_work_motto', 'Exploring');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.corp.default_position_name', 'Employee');
 INSERT INTO `emulator_texts` (`key`, `value`) VALUES ('roleplay.corp.default_position_desc', 'I have a job!');
@@ -17986,7 +17989,7 @@ INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (21, 1, 1, 5707, '', 1, 3, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (22, 1, 1, 5707, '', 1, 5, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (23, 1, 1, 5707, '', 1, 7, 0.000000, 0, '0', '', '0:0', 0);
-INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (24, 1, 1, 5707, '', 1, 9, 0.000000, 0, '0', '', '0:0', 0);
+INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (24, 1, 1, 5707, '', 1, 9, 0.000000, 0, '1', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (25, 1, 1, 5707, '', 1, 11, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (26, 1, 1, 5707, '', 7, 9, 0.000000, 0, '0', '', '0:0', 0);
 INSERT INTO `items` (`id`, `user_id`, `room_id`, `item_id`, `wall_pos`, `x`, `y`, `z`, `rot`, `extra_data`, `wired_data`, `limited_data`, `guild_id`) VALUES (27, 1, 1, 5707, '', 7, 7, 0.000000, 0, '1', '', '0:0', 0);
@@ -29617,12 +29620,32 @@ CREATE TABLE `logs_hc_payday` (
   PRIMARY KEY (`id`) USING BTREE,
   KEY `timestamp` (`timestamp`) USING BTREE,
   KEY `user_id` (`user_id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of logs_hc_payday
 -- ----------------------------
 BEGIN;
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (1, 1713153606, 1, 15, 460, 46, 5, 51, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (2, 1713153606, 2, 14, 332, 33, 5, 38, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (3, 1713155741, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (4, 1713155741, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (5, 1713155809, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (6, 1713155809, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (7, 1713156211, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (8, 1713156211, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (9, 1713156357, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (10, 1713156357, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (11, 1713156451, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (12, 1713156451, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (13, 1713156707, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (14, 1713156707, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (15, 1713159115, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (16, 1713159115, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (17, 1713159232, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (18, 1713159232, 2, 14, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (19, 1713159505, 1, 15, 0, 0, 5, 5, 'credits', 1);
+INSERT INTO `logs_hc_payday` (`id`, `timestamp`, `user_id`, `hc_streak`, `total_coins_spent`, `reward_coins_spent`, `reward_streak`, `total_payout`, `currency`, `claimed`) VALUES (20, 1713159505, 2, 14, 0, 0, 5, 5, 'credits', 1);
 COMMIT;
 
 -- ----------------------------
@@ -34012,6 +34035,88 @@ INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713029059, 0);
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713029606, 1713031850);
 INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1713029736, 1713031851);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713154326, 1713154387);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713154395, 1713154402);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713154434, 1713154517);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713154520, 1713154919);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713154923, 1713155149);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713155170, 1713155700);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713155751, 1713155806);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713155814, 1713156207);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713156241, 1713156353);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713156362, 1713156447);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713156458, 1713156703);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713156843, 1713156889);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713156901, 1713157041);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713157047, 1713157078);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713157091, 1713158209);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713158330, 1713158462);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713158468, 1713158509);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713158515, 1713159032);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159036, 1713159040);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159043, 1713159111);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159120, 1713159229);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159241, 1713159325);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159330, 1713159338);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159342, 1713159363);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159368, 1713159408);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159417, 1713159431);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159435, 1713159502);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713159549, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1713159730, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713160122, 1713160127);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713160370, 1713160384);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713160386, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713210454, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713210489, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 2, 1713210612, 1713226650);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713226701, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713226709, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713226715, 1713474936);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713384218, 1713385767);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713475720, 1713480899);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620184, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620197, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620206, 1713620318);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620318, 1713620645);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620654, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713620663, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1713620667, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 1, 1713620674, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620679, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (2, 2, 1713620685, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620689, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620694, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620837, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620841, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620844, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713620936, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713620940, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713621006, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713621008, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713621046, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713621048, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713621064, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713621122, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713621129, 1713621220);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713621462, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713621466, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622186, 1713622188);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622197, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713622203, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622396, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713622510, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622512, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622741, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713622859, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 2, 1713623009, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 2, 1713623056, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713626907, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (3, 1, 1713626910, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (5, 1, 1713626917, 0);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713627505, 1713627599);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 2, 1713627595, 1713627597);
+INSERT INTO `room_enter_log` (`room_id`, `user_id`, `timestamp`, `exit_timestamp`) VALUES (1, 1, 1713628005, 0);
 COMMIT;
 
 -- ----------------------------
@@ -34381,7 +34486,7 @@ CREATE TABLE `rooms` (
 -- Records of rooms
 -- ----------------------------
 BEGIN;
-INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (1, 1, 'Chris', 'Hospital', '', 'model_i', '', 'open', 0, 100, 3, 9, 1, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', 'hospital;passive;', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
+INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (1, 1, 'Chris', 'Hospital', '', 'model_i', '', 'open', 1, 100, 3, 9, 1, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', 'hospital;passive;', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
 INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (2, 1, 'Chris', 'Prison', '', 'model_i', '', 'open', 0, 100, 0, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', 'passive;prison;', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
 INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (3, 1, 'Chris', 'Martin Luther King Blvd', '', 'model_i', '', 'open', 0, 10, 35, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '0', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
 INSERT INTO `rooms` (`id`, `owner_id`, `owner_name`, `name`, `description`, `model`, `password`, `state`, `users`, `users_max`, `guild_id`, `category`, `score`, `paper_floor`, `paper_wall`, `paper_landscape`, `thickness_wall`, `wall_height`, `thickness_floor`, `moodlight_data`, `tags`, `is_public`, `is_staff_picked`, `allow_other_pets`, `allow_other_pets_eat`, `allow_walkthrough`, `allow_hidewall`, `chat_mode`, `chat_weight`, `chat_speed`, `chat_hearing_distance`, `chat_protection`, `override_model`, `who_can_mute`, `who_can_kick`, `who_can_ban`, `poll_id`, `roller_speed`, `promoted`, `trade_mode`, `move_diagonally`, `jukebox_active`, `hidewired`, `is_forsale`) VALUES (5, 1, 'Chris', 'Clothing Store', 'Clothing Store', 'model_i', '', 'open', 0, 10, 27, 9, 0, '0.0', '0.0', '0.0', 0, 0, 0, '2,1,1,#000000,255;2,2,1,#000000,255;', '', '0', '0', '0', '0', '1', '1', 0, 1, 1, 50, 2, '1', 0, 0, 0, 0, 4, '0', 0, '1', '0', '0', '0');
@@ -34472,8 +34577,8 @@ CREATE TABLE `rp_users_stats` (
 -- Records of rp_users_stats
 -- ----------------------------
 BEGIN;
-INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (2, 2, 100, 100, 100, 100, 0, 100, 26, 22, NULL, 1, 6);
-INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (3, 1, 100, 100, 100, 100, 0, 100, 3, 5, NULL, 2, 10);
+INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (2, 2, 100, 100, 100, 100, 0, 100, 26, 22, NULL, 2, 10);
+INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (3, 1, 100, 100, 100, 100, 0, 100, 3, 5, NULL, 4, 8);
 INSERT INTO `rp_users_stats` (`id`, `user_id`, `health_now`, `health_max`, `energy_now`, `energy_max`, `hunger_now`, `hunger_max`, `corporation_id`, `corporation_position_id`, `gang_id`, `last_pos_x`, `last_pos_y`) VALUES (5, 34, 100, 100, 100, 100, 0, 100, 3, 5, NULL, NULL, NULL);
 COMMIT;
 
@@ -34490,13 +34595,17 @@ CREATE TABLE `rp_users_weapons` (
   KEY `rp_user_weapons.weapon` (`weapon_id`),
   CONSTRAINT `rp_user_weapons.user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `rp_user_weapons.weapon` FOREIGN KEY (`weapon_id`) REFERENCES `rp_weapons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of rp_users_weapons
 -- ----------------------------
 BEGIN;
 INSERT INTO `rp_users_weapons` (`id`, `user_id`, `weapon_id`) VALUES (1, 1, 1);
+INSERT INTO `rp_users_weapons` (`id`, `user_id`, `weapon_id`) VALUES (2, 1, 2);
+INSERT INTO `rp_users_weapons` (`id`, `user_id`, `weapon_id`) VALUES (3, 1, 3);
+INSERT INTO `rp_users_weapons` (`id`, `user_id`, `weapon_id`) VALUES (4, 1, 4);
+INSERT INTO `rp_users_weapons` (`id`, `user_id`, `weapon_id`) VALUES (5, 1, 5);
 COMMIT;
 
 -- ----------------------------
@@ -34517,20 +34626,25 @@ CREATE TABLE `rp_weapons` (
   `weight` int(11) NOT NULL,
   `cooldown_seconds` int(11) NOT NULL,
   `special_abilities` varchar(255) NOT NULL,
-  `equip_effect` varchar(255) NOT NULL,
+  `equip_effect` int(11) NOT NULL,
   `equip_message` varchar(255) NOT NULL,
   `attack_message` varchar(255) NOT NULL,
+  `unequip_message` varchar(255) NOT NULL DEFAULT '',
   `created_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
   `updated_at` int(11) NOT NULL DEFAULT unix_timestamp(cast(current_timestamp() as date)),
   PRIMARY KEY (`id`,`unique_name`) USING BTREE,
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of rp_weapons
 -- ----------------------------
 BEGIN;
-INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `created_at`, `updated_at`) VALUES (1, 'p30', 'HK P30', 'gun', 15, 35, 4, 60, 4, 15, 5, 10, 'none', 'dance', '*Reaches for my holster and pulls out a HK P30*', '*Squeezes the trigger and shoots %username% doing %damage% points of damage*', 1711411200, 1711411200);
+INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `unequip_message`, `created_at`, `updated_at`) VALUES (1, 'glock17', 'Glock 17', 'gun', 15, 35, 4, 60, 4, 15, 5, 10, 'none', 430, '*Reaches for my holster and pulls out a :displayName*', '*Squeezes the trigger and shoots :username doing :damage points of damage*', '*Puts my :displayName back in the holster*', 1711411200, 1711411200);
+INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `unequip_message`, `created_at`, `updated_at`) VALUES (2, 'ak47', 'AK47', 'gun', 25, 55, 8, 80, 4, 30, 8, 10, 'none', 431, '*Pulls an :displayName out of my pants and takes the safety off*', '*Squeezes the trigger and shoots :username  doing :damage points of damage*', '*Turns the safety back on and slides my :displayName in my pants*', 1711411200, 1711411200);
+INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `unequip_message`, `created_at`, `updated_at`) VALUES (3, 'g36', 'G36', 'gun', 25, 55, 8, 80, 4, 30, 8, 10, 'none', 428, '*Pulls an :displayName out of my pants and takes the safety off*', '*Squeezes the trigger and shoots :username doing :damage points of damage*', '*Turns the safety back on and slides my :displayName in my pants*', 1711411200, 1711411200);
+INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `unequip_message`, `created_at`, `updated_at`) VALUES (4, 'bat', 'Bat', 'gun', 5, 10, 1, 100, 0, 0, 5, 1, 'none', 437, '*Pulls out a :displayName*', '*Hits :username with my :displayName doing :damage points of damage*', '*Puts the :displayName down*', 1711411200, 1711411200);
+INSERT INTO `rp_weapons` (`id`, `unique_name`, `display_name`, `type`, `min_damage`, `max_damage`, `range_in_tiles`, `accuracy`, `reload_time`, `ammo_capacity`, `weight`, `cooldown_seconds`, `special_abilities`, `equip_effect`, `equip_message`, `attack_message`, `unequip_message`, `created_at`, `updated_at`) VALUES (5, 'uzi', 'Uzi SMG', 'gun', 10, 25, 4, 40, 4, 60, 7, 10, 'none', 425, '*Pulls out a :displayName*', '*Squeezes the trigger and shoots :username doing :damage points of damage*', '*Pulls out a :displayName*', 1711411200, 1711411200);
 COMMIT;
 
 -- ----------------------------
@@ -34934,9 +35048,9 @@ CREATE TABLE `users` (
 -- Records of users
 -- ----------------------------
 BEGIN;
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (1, 'Chris', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713031851, 1713029059, 'Exploring', 'hd-3095-1.ch-93483434-1338-1336.lg-61156492-1338.sh-6225262-62.wa-800001713-1325-62', 'M', 7, 21529, 0, 0, '0', 'chris_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (2, 'Kevin', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713053126, 1713029051, 'Working', '-.hd-180-97562.ch-215-73.lg-270-73.sh-305-62.ha-1002-70.wa-2007-0', 'M', 7, 1100, 0, 0, '1', 'kevin_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (34, 'C', 'KREWS DEV', '$2a$10$KersO.qHNIMTnPw19jxGKeKnQdm38YheQmnXmBsvnPNQGp9db7DJm', 'c@gmail.com', '0', 1713062760, 0, 0, 1713062647, 'Welcome to Imagine!', '-', 'M', 1, 100, 100, 50, '0', 'imagine_SI9uYkCtK8VVeStD4F2tfnH7qWBgMV6wPQ1LFsLISXeKmdiyPb_34', '', '', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (1, 'Chris', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713628004, 1713627504, 'Exploring', 'hd-3095-1.ch-93483434-1338-1336.lg-61156492-1338.sh-6225262-62.wa-800001713-1325-62', 'M', 7, 21625, 0, 0, '1', 'chris_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (2, 'Kevin', 'SYSTEMACC', '$2a$10$32nb2/G5tDu9FUKRrvud4.YzwMCywiYNr7RYRMFkzU9VRoFKUUPQC', 'mail@hoster.de', '1', 1, 1, 1713627597, 1713627594, 'Working', '-.hd-180-97562.ch-215-73.lg-270-73.sh-305-62.ha-1002-70.wa-2007-0', 'M', 7, 1183, 0, 0, '0', 'kevin_wants_to_login', '127.0.0.1', '0:0:0:0:0:0:0:1', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `username`, `real_name`, `password`, `mail`, `mail_verified`, `account_created`, `account_day_of_birth`, `last_login`, `last_online`, `motto`, `look`, `gender`, `rank`, `credits`, `pixels`, `points`, `online`, `auth_ticket`, `ip_register`, `ip_current`, `machine_id`, `home_room`, `secret_key`, `pincode`, `extra_rank`, `google_id`, `discord_user_id`, `facebook_id`, `lang`) VALUES (34, 'C', 'KREWS DEV', '$2a$10$KersO.qHNIMTnPw19jxGKeKnQdm38YheQmnXmBsvnPNQGp9db7DJm', 'c@gmail.com', '0', 1713062760, 0, 0, 1713062647, 'Welcome to Imagine!', '-', 'M', 1, 100, 100, 50, '0', 'imagine_O2xvDO18OqqGAEcNBWhcAuJvVnHnfvkj1s0tsmm9DVcV354k68_34', '', '', '', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 COMMIT;
 
 -- ----------------------------
@@ -35268,8 +35382,8 @@ CREATE TABLE `users_settings` (
 -- Records of users_settings
 -- ----------------------------
 BEGIN;
-INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (1, 1, 0, 0, 3, 3, 0, 0, 3, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 202439, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1711818646, 75, 1100);
-INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (2, 2, 0, 0, 3, 3, 0, 0, 26, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 87077, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1711903416, 75, 1100);
+INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (1, 1, 0, 0, 3, 3, 0, 0, 3, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 212866, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1713159505, 75, 1100);
+INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (2, 2, 0, 0, 3, 3, 0, 0, 26, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 435912, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '1', 0, '0', '0', 0, 1, 1, 0, 1713159505, 75, 1100);
 INSERT INTO `users_settings` (`id`, `user_id`, `credits`, `achievement_score`, `daily_respect_points`, `daily_pet_respect_points`, `respects_given`, `respects_received`, `guild_id`, `can_change_name`, `can_trade`, `is_citizen`, `citizen_level`, `helper_level`, `tradelock_amount`, `cfh_send`, `cfh_abusive`, `cfh_warnings`, `cfh_bans`, `block_following`, `block_friendrequests`, `block_roominvites`, `volume_system`, `volume_furni`, `volume_trax`, `old_chat`, `block_camera_follow`, `chat_color`, `home_room`, `online_time`, `tags`, `club_expire_timestamp`, `login_streak`, `rent_space_id`, `rent_space_endtime`, `hof_points`, `block_alerts`, `talent_track_citizenship_level`, `talent_track_helpers_level`, `ignore_bots`, `ignore_pets`, `nux`, `mute_end_timestamp`, `allow_name_change`, `perk_trade`, `forums_post_count`, `ui_flags`, `has_gotten_default_saved_searches`, `hc_gifts_claimed`, `last_hc_payday`, `max_rooms`, `max_friends`) VALUES (3, 19, 0, 0, 3, 3, 0, 0, 0, '0', '1', '0', 0, 0, 0, 0, 0, 0, 0, '0', '0', '0', 100, 100, 100, '0', '0', 0, 0, 2958, 'Arcturus Emulator;', 0, 0, 0, 0, 0, '0', -1, -1, '0', '0', '0', 0, '0', '0', 0, 1, 1, 0, 0, 50, 300);
 COMMIT;
 

@@ -70,7 +70,7 @@ public class ItemsComponent {
             return;
         }
 
-        InventoryItemAddedEvent event = new InventoryItemAddedEvent(this.inventory, item);
+        InventoryItemAddedEvent event = new InventoryItemAddedEvent(item);
         if (Emulator.getPluginManager().fireEvent(event).isCancelled()) {
             return;
         }
@@ -81,7 +81,7 @@ public class ItemsComponent {
     }
 
     public void addItems(HashSet<RoomItem> items) {
-        InventoryItemsAddedEvent event = new InventoryItemsAddedEvent(this.inventory, items);
+        InventoryItemsAddedEvent event = new InventoryItemsAddedEvent(items);
         if (Emulator.getPluginManager().fireEvent(event).isCancelled()) {
             return;
         }
@@ -122,7 +122,7 @@ public class ItemsComponent {
     }
 
     public void removeHabboItem(RoomItem item) {
-        InventoryItemRemovedEvent event = new InventoryItemRemovedEvent(this.inventory, item);
+        InventoryItemRemovedEvent event = new InventoryItemRemovedEvent(item);
         if (Emulator.getPluginManager().fireEvent(event).isCancelled()) {
             return;
         }

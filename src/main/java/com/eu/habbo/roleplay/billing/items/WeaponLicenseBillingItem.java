@@ -1,6 +1,9 @@
 package com.eu.habbo.roleplay.billing.items;
 
+import com.eu.habbo.Emulator;
+import com.eu.habbo.habbohotel.users.Habbo;
 import com.eu.habbo.roleplay.government.GovernmentManager;
+import com.eu.habbo.roleplay.government.LicenseType;
 
 public class WeaponLicenseBillingItem implements BillingItem{
 
@@ -10,6 +13,11 @@ public class WeaponLicenseBillingItem implements BillingItem{
     public WeaponLicenseBillingItem(int userID, int chargedByUserID) {
         this.userID = userID;
         this.chargedByUserID = chargedByUserID;
+    }
+
+    @Override
+    public BillType getType() {
+        return BillType.WEAPON_LICENSE;
     }
 
     @Override
@@ -45,5 +53,11 @@ public class WeaponLicenseBillingItem implements BillingItem{
     @Override
     public int getUserID() {
         return this.userID;
+    }
+
+    @Override
+    public void onBillPaid(Habbo habbo) {
+        habbo.getInventory().getLicensesComponent().createLicense(LicenseType.WEAPON);
+        habbo.shout(Emulator.getTexts().getValue("roleplay.license.received").replace(":license", this.getTitle()));
     }
 }

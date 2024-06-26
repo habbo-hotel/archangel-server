@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 
-
 public class HabboBillRepository {
     private static HabboBillRepository instance;
 

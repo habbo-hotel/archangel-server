@@ -1,9 +1,11 @@
 package com.eu.habbo.roleplay.messages.incoming.device;
 
+import com.eu.habbo.Emulator;
 import com.eu.habbo.habbohotel.rooms.items.entities.RoomItem;
 import com.eu.habbo.messages.incoming.MessageHandler;
 import com.eu.habbo.roleplay.interactions.InteractionPhone;
 import com.eu.habbo.roleplay.interactions.InteractionUsable;
+import com.eu.habbo.roleplay.messages.outgoing.device.PhoneOpenComposer;
 
 public class DeviceOpenEvent extends MessageHandler {
     @Override
@@ -22,7 +24,10 @@ public class DeviceOpenEvent extends MessageHandler {
         }
 
         if (InteractionPhone.class.isAssignableFrom(item.getBaseItem().getInteractionType().getType())) {
-            this.client.getHabbo().shout("I USED A PHONE");
+            this.client.getHabbo().shout(Emulator.getTexts().getValue("roleplay.phone.take_out"));
+            this.client.getHabbo().getRoomUnit().giveEffect(InteractionPhone.PHONE_EFFECT_ID, -1);
+
+            this.client.sendResponse(new PhoneOpenComposer(itemID));
             return;
         }
 

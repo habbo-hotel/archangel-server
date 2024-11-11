@@ -10,11 +10,4 @@ public class CorpListEvent extends MessageHandler {
     public void handle() {
         this.client.sendResponse(new CorpListComposer());
     }
-
-    public static class CorpStopWorkEvent extends MessageHandler {
-        @Override
-        public void handle() {
-            new CorpStopWorkCommand().handle(this.client, new String[] {});
-        }
-    }
 }
